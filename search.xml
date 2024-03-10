@@ -1,30 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Java学习笔记 (一)</title>
-    <url>/posts/d2b82188/</url>
-    <content><![CDATA[<h1 id="HelloWorld"><a href="#HelloWorld" class="headerlink" title="HelloWorld"></a>HelloWorld</h1><h2 id="Java程序开发三步骤：编写、编译、运行。"><a href="#Java程序开发三步骤：编写、编译、运行。" class="headerlink" title="Java程序开发三步骤：编写、编译、运行。"></a>Java程序开发三步骤：编写、编译、运行。</h2><ul>
-<li>将 Java 代码<code>编写</code>到扩展名为 .java 的源文件中。</li>
-<li>通过 javac 命令对该 java 文件进行<code>编译</code>，生成一个或多个字节码文件。</li>
-<li>通过 java 命令对生成的 class 文件进行<code>运行</code>。</li>
-</ul>
-<p><img src="https://jsd.012700.xyz/gh/baihu433/image/image/1707705342245.png" alt="图片来自网络"></p>
-<h2 id="编写"><a href="#编写" class="headerlink" title="编写"></a>编写</h2><p>新建一个<code>HelloWorld.java</code>文件，并写入一下内容。<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">HelloChina</span> &#123;</span><br><span class="line">  	<span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    	System.out.println(<span class="string">&quot;HelloWorld!!&quot;</span>);</span><br><span class="line">  	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h2 id="编译"><a href="#编译" class="headerlink" title="编译"></a>编译</h2><p>在java源文件所在目录内使用<code>javac</code>来编译源文件。<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">命令：</span><br><span class="line">javac Java源文件名.后缀名(.java)</span><br><span class="line">举例：</span><br><span class="line">javac HelloWorld.java</span><br></pre></td></tr></table></figure><br>成功编译的话，终端没有任何提示，但生成了一个HelloChina.class，这就是<code>字节码文件</code></p>
-<h2 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h2><p>同样是也需要在字节码文件的同目录下，但使用的命令是<code>java</code>而不是<code>javac</code>并且<code>不需要</code>带文件后缀名<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">举例：</span><br><span class="line">java HelloChina</span><br><span class="line">错误演示：</span><br><span class="line">java HelloChina.class</span><br></pre></td></tr></table></figure></p>
-<h2 id="成果图"><a href="#成果图" class="headerlink" title="成果图"></a>成果图</h2><p><img src="https://jsd.012700.xyz/gh/baihu433/image/image/1707706526814.png" alt="图片来源于网络"></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>分享</tag>
-        <tag>java</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Java学习笔记 (二)</title>
     <url>/posts/7d89baea/</url>
     <content><![CDATA[<h1 id="Java注释"><a href="#Java注释" class="headerlink" title="Java注释"></a>Java注释</h1><h2 id="什么是注释"><a href="#什么是注释" class="headerlink" title="什么是注释?"></a>什么是注释?</h2><ul>
@@ -62,61 +38,6 @@
         <tag>分享</tag>
         <tag>java</tag>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux学习-入门篇 (一)</title>
-    <url>/posts/e4883857/</url>
-    <content><![CDATA[<h2 id="gt-在正式开始学习之前，我先唠唠嗑，因为有一个非常现实的问题——学习是一件非常痛苦的事情，如果说学习Linux系统真的很简单，那必定是骗子的谎言。在每天起床后的几分钟时间里，大脑都会陷入斗争状态：是该聊会儿天呢，还是要追个美剧呢，还是学习一下那该死的Linux系统呢？这个时候，请不要忘记自己的初心，未来的你一定会感谢现在努力的自己。"><a href="#gt-在正式开始学习之前，我先唠唠嗑，因为有一个非常现实的问题——学习是一件非常痛苦的事情，如果说学习Linux系统真的很简单，那必定是骗子的谎言。在每天起床后的几分钟时间里，大脑都会陷入斗争状态：是该聊会儿天呢，还是要追个美剧呢，还是学习一下那该死的Linux系统呢？这个时候，请不要忘记自己的初心，未来的你一定会感谢现在努力的自己。" class="headerlink" title="&gt; 在正式开始学习之前，我先唠唠嗑，因为有一个非常现实的问题——学习是一件非常痛苦的事情，如果说学习Linux系统真的很简单，那必定是骗子的谎言。在每天起床后的几分钟时间里，大脑都会陷入斗争状态：是该聊会儿天呢，还是要追个美剧呢，还是学习一下那该死的Linux系统呢？这个时候，请不要忘记自己的初心，未来的你一定会感谢现在努力的自己。"></a>&gt; 在正式开始学习之前，我先唠唠嗑，因为有一个非常现实的问题——<code>学习是一件非常痛苦的事情</code>，如果说学习Linux系统真的很简单，那必定是骗子的谎言。在每天起床后的几分钟时间里，大脑都会陷入斗争状态：是该聊会儿天呢，还是要追个美剧呢，还是学习一下那该死的Linux系统呢？这个时候，请不要忘记自己的初心，未来的你一定会感谢现在努力的自己。</h2><h1 id="Linux概述"><a href="#Linux概述" class="headerlink" title="Linux概述"></a>Linux概述</h1><blockquote>
-<p>Linux内核最初只是由芬兰人林纳斯·托瓦兹（Linus Torvalds）在赫尔辛基大学上学时出于个人爱好而编写的，当时还在读大学的Linus想要基于<code>Unix</code>的原则和设计来创建一个免费的开源系统，从而代替<code>MINIX</code>操作系统。<br></p>
-<ol>
-<li>Linux基于<code>GNU 通用公共许可证（GPL）</code>的开放源代码特性，迅速得到了GNU源代码开放计划和一大批程序员的支持，随后Linux正式进入如火如荼的发展阶段。</li>
-<li>Linux系统的吉祥物名为<code>Tux</code>，是一只呆萌的小企鹅。<img src="https://jsd.012700.xyz/gh/baihu433/image/image/1707831915290.jpg" alt="Linux图片及吉祥物"><h1 id="常见的Linux系统版本"><a href="#常见的Linux系统版本" class="headerlink" title="常见的Linux系统版本"></a>常见的Linux系统版本</h1>在介绍常见的Linux系统版本之前，首先需要区分Linux系统内核与Linux发行套件系统的不同。</li>
-</ol>
-<ul>
-<li><code>Linux内核</code>是操作系统的核心，负责提供基本的操作系统功能。</li>
-<li><code>Linux发行套件系统</code>是在内核的基础上，添加了各种实用工具、应用程序和图形界面等组件，形成一个完整的操作系统。</li>
-</ul>
-<hr>
-<h2 id="全球的Linux系统大约有近百款，每个系统都有自己的特点与针对性，我这里只列出四种常见的Linux系统。"><a href="#全球的Linux系统大约有近百款，每个系统都有自己的特点与针对性，我这里只列出四种常见的Linux系统。" class="headerlink" title="全球的Linux系统大约有近百款，每个系统都有自己的特点与针对性，我这里只列出四种常见的Linux系统。"></a><span  style="font-size:0.7em;">全球的Linux系统大约有近百款，每个系统都有自己的特点与针对性，我这里只列出四种常见的Linux系统。</span></h2><h2 id="引用一下刘瑞老师的话-“我们并不是因为开源而喜欢Linux，而是因为Linux系统真的非常优秀，开源精神仅仅是锦上添花而已。”"><a href="#引用一下刘瑞老师的话-“我们并不是因为开源而喜欢Linux，而是因为Linux系统真的非常优秀，开源精神仅仅是锦上添花而已。”" class="headerlink" title="引用一下刘瑞老师的话: “我们并不是因为开源而喜欢Linux，而是因为Linux系统真的非常优秀，开源精神仅仅是锦上添花而已。”"></a>引用一下刘瑞老师的话: “我们并不是因为开源而喜欢Linux，而是因为Linux系统真的非常优秀，开源精神仅仅是锦上添花而已。”</h2><h2 id="1-CentOS"><a href="#1-CentOS" class="headerlink" title="1. CentOS"></a>1. CentOS</h2><div align="center"><img alt="CentOS" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707833168116.png"></div>
-
-</blockquote>
-<ul>
-<li>CentOS是一款基于Red  Hat  Enterprise  Linux（RHEL）的开源操作系统，它具有稳定性高、兼容性强等特点，广泛应用于服务器领域。CentOS全称<code>Community  Enterprise  Operating  System</code>，意为社区企业操作系统。</li>
-<li><p>在CentOS中，使用的包管理器是<code>yum</code>（Yellow dog Updater Modified）yum是一款强大的软件包管理器，它能够方便地安装、升级和删除软件包。</p>
-<h2 id="2-Debian-Linux"><a href="#2-Debian-Linux" class="headerlink" title="2. Debian Linux"></a>2. Debian Linux</h2><div align="center"><img alt="Debian" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707833828652.jpg"></div>
-</li>
-<li><p>Debian是一款著名的开源操作系统，它以稳定性、安全性和自由度著称。它由Debian   Foundation维护。</p>
-</li>
-<li><p>在Debian中，使用的包管理器是<code>apt</code>（Advanced   Package   Tool）。apt是一款强大的包管理器，它继承了Debian的稳定性特点。</p>
-<h2 id="3-Ubuntu-Linux"><a href="#3-Ubuntu-Linux" class="headerlink" title="3. Ubuntu Linux"></a>3. Ubuntu Linux</h2><div align="center"><img alt="Ubuntu" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707833168115.png"></div>
-</li>
-<li><p>Ubuntu是一款基于Debian的开源操作系统，由Canonical  Ltd.公司支持和发展。它以人性化、易用性和强大的社区支持而闻名。Ubuntu发行版定期发布新版本，并提供广泛的软件包和图形化界面，使得它深受广大用户喜爱。</p>
-</li>
-<li><p>在Ubuntu Linux中使用的包管理器是<code>apt</code>（Advanced   Package   Tool），apt具有稳定性、可靠性和自动化等特点，可以满足用户在安装、升级和删除软件包方面的需求。</p>
-<h2 id="4-Arch-Linux"><a href="#4-Arch-Linux" class="headerlink" title="4. Arch Linux"></a>4. Arch Linux</h2><div align="center"><img alt="Arch" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707835060690.jpg"></div>
-</li>
-<li><p>Arch  Linux是一款以简单、轻量级和定制性强著称的开源操作系统。它采用了滚动发布模式，意味着用户可以始终使用最新的软件包。Arch  Linux的设计理念强调简洁和自由度，允许用户根据需求自由定制系统。</p>
-</li>
-<li>在Arch  Linux中，使用的包管理器是<code>pacman</code>，因它具有易于使用和灵活的特点，所以成为了Arch Linux 社区的标志之一。</li>
-</ul>
-<hr>
-<h2 id="gt-虽然有这么多Linux系统，但我要说的一点就是——没有最好的系统，只最适合需求的系统。"><a href="#gt-虽然有这么多Linux系统，但我要说的一点就是——没有最好的系统，只最适合需求的系统。" class="headerlink" title=" &gt; 虽然有这么多Linux系统，但我要说的一点就是——没有最好的系统，只最适合需求的系统。"></a> &gt; 虽然有这么多Linux系统，但我要说的一点就是——没有最好的系统，只最适合需求的系统。</h2><blockquote>
-<p>总结：你阅读完本节之后你应该了解</p>
-<ol>
-<li>开源协议</li>
-<li>常见Linux系统的logo及其包管理器</li>
-</ol>
-<hr>
-</blockquote>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>分享</tag>
-        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -242,6 +163,61 @@ ps：之后会讲用户的知识
       </tags>
   </entry>
   <entry>
+    <title>Linux学习-入门篇 (一)</title>
+    <url>/posts/e4883857/</url>
+    <content><![CDATA[<h2 id="gt-在正式开始学习之前，我先唠唠嗑，因为有一个非常现实的问题——学习是一件非常痛苦的事情，如果说学习Linux系统真的很简单，那必定是骗子的谎言。在每天起床后的几分钟时间里，大脑都会陷入斗争状态：是该聊会儿天呢，还是要追个美剧呢，还是学习一下那该死的Linux系统呢？这个时候，请不要忘记自己的初心，未来的你一定会感谢现在努力的自己。"><a href="#gt-在正式开始学习之前，我先唠唠嗑，因为有一个非常现实的问题——学习是一件非常痛苦的事情，如果说学习Linux系统真的很简单，那必定是骗子的谎言。在每天起床后的几分钟时间里，大脑都会陷入斗争状态：是该聊会儿天呢，还是要追个美剧呢，还是学习一下那该死的Linux系统呢？这个时候，请不要忘记自己的初心，未来的你一定会感谢现在努力的自己。" class="headerlink" title="&gt; 在正式开始学习之前，我先唠唠嗑，因为有一个非常现实的问题——学习是一件非常痛苦的事情，如果说学习Linux系统真的很简单，那必定是骗子的谎言。在每天起床后的几分钟时间里，大脑都会陷入斗争状态：是该聊会儿天呢，还是要追个美剧呢，还是学习一下那该死的Linux系统呢？这个时候，请不要忘记自己的初心，未来的你一定会感谢现在努力的自己。"></a>&gt; 在正式开始学习之前，我先唠唠嗑，因为有一个非常现实的问题——<code>学习是一件非常痛苦的事情</code>，如果说学习Linux系统真的很简单，那必定是骗子的谎言。在每天起床后的几分钟时间里，大脑都会陷入斗争状态：是该聊会儿天呢，还是要追个美剧呢，还是学习一下那该死的Linux系统呢？这个时候，请不要忘记自己的初心，未来的你一定会感谢现在努力的自己。</h2><h1 id="Linux概述"><a href="#Linux概述" class="headerlink" title="Linux概述"></a>Linux概述</h1><blockquote>
+<p>Linux内核最初只是由芬兰人林纳斯·托瓦兹（Linus Torvalds）在赫尔辛基大学上学时出于个人爱好而编写的，当时还在读大学的Linus想要基于<code>Unix</code>的原则和设计来创建一个免费的开源系统，从而代替<code>MINIX</code>操作系统。<br></p>
+<ol>
+<li>Linux基于<code>GNU 通用公共许可证（GPL）</code>的开放源代码特性，迅速得到了GNU源代码开放计划和一大批程序员的支持，随后Linux正式进入如火如荼的发展阶段。</li>
+<li>Linux系统的吉祥物名为<code>Tux</code>，是一只呆萌的小企鹅。<img src="https://jsd.012700.xyz/gh/baihu433/image/image/1707831915290.jpg" alt="Linux图片及吉祥物"><h1 id="常见的Linux系统版本"><a href="#常见的Linux系统版本" class="headerlink" title="常见的Linux系统版本"></a>常见的Linux系统版本</h1>在介绍常见的Linux系统版本之前，首先需要区分Linux系统内核与Linux发行套件系统的不同。</li>
+</ol>
+<ul>
+<li><code>Linux内核</code>是操作系统的核心，负责提供基本的操作系统功能。</li>
+<li><code>Linux发行套件系统</code>是在内核的基础上，添加了各种实用工具、应用程序和图形界面等组件，形成一个完整的操作系统。</li>
+</ul>
+<hr>
+<h2 id="全球的Linux系统大约有近百款，每个系统都有自己的特点与针对性，我这里只列出四种常见的Linux系统。"><a href="#全球的Linux系统大约有近百款，每个系统都有自己的特点与针对性，我这里只列出四种常见的Linux系统。" class="headerlink" title="全球的Linux系统大约有近百款，每个系统都有自己的特点与针对性，我这里只列出四种常见的Linux系统。"></a><span  style="font-size:0.7em;">全球的Linux系统大约有近百款，每个系统都有自己的特点与针对性，我这里只列出四种常见的Linux系统。</span></h2><h2 id="引用一下刘瑞老师的话-“我们并不是因为开源而喜欢Linux，而是因为Linux系统真的非常优秀，开源精神仅仅是锦上添花而已。”"><a href="#引用一下刘瑞老师的话-“我们并不是因为开源而喜欢Linux，而是因为Linux系统真的非常优秀，开源精神仅仅是锦上添花而已。”" class="headerlink" title="引用一下刘瑞老师的话: “我们并不是因为开源而喜欢Linux，而是因为Linux系统真的非常优秀，开源精神仅仅是锦上添花而已。”"></a>引用一下刘瑞老师的话: “我们并不是因为开源而喜欢Linux，而是因为Linux系统真的非常优秀，开源精神仅仅是锦上添花而已。”</h2><h2 id="1-CentOS"><a href="#1-CentOS" class="headerlink" title="1. CentOS"></a>1. CentOS</h2><div align="center"><img alt="CentOS" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707833168116.png"></div>
+
+</blockquote>
+<ul>
+<li>CentOS是一款基于Red  Hat  Enterprise  Linux（RHEL）的开源操作系统，它具有稳定性高、兼容性强等特点，广泛应用于服务器领域。CentOS全称<code>Community  Enterprise  Operating  System</code>，意为社区企业操作系统。</li>
+<li><p>在CentOS中，使用的包管理器是<code>yum</code>（Yellow dog Updater Modified）yum是一款强大的软件包管理器，它能够方便地安装、升级和删除软件包。</p>
+<h2 id="2-Debian-Linux"><a href="#2-Debian-Linux" class="headerlink" title="2. Debian Linux"></a>2. Debian Linux</h2><div align="center"><img alt="Debian" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707833828652.jpg"></div>
+</li>
+<li><p>Debian是一款著名的开源操作系统，它以稳定性、安全性和自由度著称。它由Debian   Foundation维护。</p>
+</li>
+<li><p>在Debian中，使用的包管理器是<code>apt</code>（Advanced   Package   Tool）。apt是一款强大的包管理器，它继承了Debian的稳定性特点。</p>
+<h2 id="3-Ubuntu-Linux"><a href="#3-Ubuntu-Linux" class="headerlink" title="3. Ubuntu Linux"></a>3. Ubuntu Linux</h2><div align="center"><img alt="Ubuntu" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707833168115.png"></div>
+</li>
+<li><p>Ubuntu是一款基于Debian的开源操作系统，由Canonical  Ltd.公司支持和发展。它以人性化、易用性和强大的社区支持而闻名。Ubuntu发行版定期发布新版本，并提供广泛的软件包和图形化界面，使得它深受广大用户喜爱。</p>
+</li>
+<li><p>在Ubuntu Linux中使用的包管理器是<code>apt</code>（Advanced   Package   Tool），apt具有稳定性、可靠性和自动化等特点，可以满足用户在安装、升级和删除软件包方面的需求。</p>
+<h2 id="4-Arch-Linux"><a href="#4-Arch-Linux" class="headerlink" title="4. Arch Linux"></a>4. Arch Linux</h2><div align="center"><img alt="Arch" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707835060690.jpg"></div>
+</li>
+<li><p>Arch  Linux是一款以简单、轻量级和定制性强著称的开源操作系统。它采用了滚动发布模式，意味着用户可以始终使用最新的软件包。Arch  Linux的设计理念强调简洁和自由度，允许用户根据需求自由定制系统。</p>
+</li>
+<li>在Arch  Linux中，使用的包管理器是<code>pacman</code>，因它具有易于使用和灵活的特点，所以成为了Arch Linux 社区的标志之一。</li>
+</ul>
+<hr>
+<h2 id="gt-虽然有这么多Linux系统，但我要说的一点就是——没有最好的系统，只最适合需求的系统。"><a href="#gt-虽然有这么多Linux系统，但我要说的一点就是——没有最好的系统，只最适合需求的系统。" class="headerlink" title=" &gt; 虽然有这么多Linux系统，但我要说的一点就是——没有最好的系统，只最适合需求的系统。"></a> &gt; 虽然有这么多Linux系统，但我要说的一点就是——没有最好的系统，只最适合需求的系统。</h2><blockquote>
+<p>总结：你阅读完本节之后你应该了解</p>
+<ol>
+<li>开源协议</li>
+<li>常见Linux系统的logo及其包管理器</li>
+</ol>
+<hr>
+</blockquote>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>分享</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/posts/4a17b156/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -256,6 +232,28 @@ ps：之后会讲用户的知识
 ]]></content>
   </entry>
   <entry>
+    <title>好句收集 (一)</title>
+    <url>/posts/b5c675f1/</url>
+    <content><![CDATA[<p>极光不会因为你的不完美而缺陷，因为，爱就是心中不朽的极光！</p>
+<p><hr><br>前进会带来失去，但也会带来相遇。</p>
+<p><hr><br>别担心，窗外不会一直下雨，人生也不会一直乌云密布。</p>
+<p><hr><br>你所浪费的今天，是昨日死去之人苦苦奢望的明天，你所厌恶的现在，是未来的你再也回不去的曾经。</p>
+<p><hr><br>正真的离别，没有长亭古道，也没有劝君更敬一杯酒，只有在一个和以往一样的清晨，有的人留在了昨天。</p>
+<p><hr><br>只有彻底失去某个人，才能真正明白，那个人在自己心中的重量。<br>慎终如始、坚守初心才是正道，万万不可因为走得太远，而忘记了为什么出发。</p>
+<p><hr><br>我像一个拾荒者，一片一片的拾起我们的曾经 然后在某一个夏日的午后，拼凑起来晒出自己美好的回忆。</p>
+<p><hr><br>听故事的人终会成为讲故事的人，讲故事的人也难免变成故事里的人。</p>
+<p><hr><br>总会有一个温柔的人，给你来带温柔的月亮。</p>
+<p><hr><br>困住我的从来都不是世间万物 而是我那颗躁动不安的心</p>
+]]></content>
+      <categories>
+        <category>好句</category>
+      </categories>
+      <tags>
+        <tag>好句</tag>
+        <tag>收集</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>安慰人，这句话够了</title>
     <url>/posts/b5c675f1/</url>
     <content><![CDATA[<h2 id="你已经做的很好了，不用逼自己那么辛苦，下次一定会更好。"><a href="#你已经做的很好了，不用逼自己那么辛苦，下次一定会更好。" class="headerlink" title="你已经做的很好了，不用逼自己那么辛苦，下次一定会更好。"></a>你已经做的很好了，不用逼自己那么辛苦，下次一定会更好。</h2><h2 id="有压力是正常的，说出来总会好一些，不要把所有压力和不高兴都无声的消化了。"><a href="#有压力是正常的，说出来总会好一些，不要把所有压力和不高兴都无声的消化了。" class="headerlink" title="有压力是正常的，说出来总会好一些，不要把所有压力和不高兴都无声的消化了。"></a>有压力是正常的，说出来总会好一些，不要把所有压力和不高兴都无声的消化了。</h2><h2 id="相信你的能力，这个难题你一定可以克服，你那么聪明，一定可以找到解决办法。"><a href="#相信你的能力，这个难题你一定可以克服，你那么聪明，一定可以找到解决办法。" class="headerlink" title="相信你的能力，这个难题你一定可以克服，你那么聪明，一定可以找到解决办法。"></a>相信你的能力，这个难题你一定可以克服，你那么聪明，一定可以找到解决办法。</h2>]]></content>
@@ -265,6 +263,30 @@ ps：之后会讲用户的知识
       <tags>
         <tag>好句</tag>
         <tag>收集</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java学习笔记 (一)</title>
+    <url>/posts/d2b82188/</url>
+    <content><![CDATA[<h1 id="HelloWorld"><a href="#HelloWorld" class="headerlink" title="HelloWorld"></a>HelloWorld</h1><h2 id="Java程序开发三步骤：编写、编译、运行。"><a href="#Java程序开发三步骤：编写、编译、运行。" class="headerlink" title="Java程序开发三步骤：编写、编译、运行。"></a>Java程序开发三步骤：编写、编译、运行。</h2><ul>
+<li>将 Java 代码<code>编写</code>到扩展名为 .java 的源文件中。</li>
+<li>通过 javac 命令对该 java 文件进行<code>编译</code>，生成一个或多个字节码文件。</li>
+<li>通过 java 命令对生成的 class 文件进行<code>运行</code>。</li>
+</ul>
+<p><img src="https://jsd.012700.xyz/gh/baihu433/image/image/1707705342245.png" alt="图片来自网络"></p>
+<h2 id="编写"><a href="#编写" class="headerlink" title="编写"></a>编写</h2><p>新建一个<code>HelloWorld.java</code>文件，并写入一下内容。<br><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">HelloChina</span> &#123;</span><br><span class="line">  	<span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    	System.out.println(<span class="string">&quot;HelloWorld!!&quot;</span>);</span><br><span class="line">  	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="编译"><a href="#编译" class="headerlink" title="编译"></a>编译</h2><p>在java源文件所在目录内使用<code>javac</code>来编译源文件。<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">命令：</span><br><span class="line">javac Java源文件名.后缀名(.java)</span><br><span class="line">举例：</span><br><span class="line">javac HelloWorld.java</span><br></pre></td></tr></table></figure><br>成功编译的话，终端没有任何提示，但生成了一个HelloChina.class，这就是<code>字节码文件</code></p>
+<h2 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h2><p>同样是也需要在字节码文件的同目录下，但使用的命令是<code>java</code>而不是<code>javac</code>并且<code>不需要</code>带文件后缀名<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">举例：</span><br><span class="line">java HelloChina</span><br><span class="line">错误演示：</span><br><span class="line">java HelloChina.class</span><br></pre></td></tr></table></figure></p>
+<h2 id="成果图"><a href="#成果图" class="headerlink" title="成果图"></a>成果图</h2><p><img src="https://jsd.012700.xyz/gh/baihu433/image/image/1707706526814.png" alt="图片来源于网络"></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>分享</tag>
+        <tag>java</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -328,28 +350,6 @@ ps：之后会讲用户的知识
       <tags>
         <tag>收集</tag>
         <tag>诗歌</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>好句收集 (一)</title>
-    <url>/posts/b5c675f1/</url>
-    <content><![CDATA[<p>极光不会因为你的不完美而缺陷，因为，爱就是心中不朽的极光！</p>
-<p><hr><br>前进会带来失去，但也会带来相遇。</p>
-<p><hr><br>别担心，窗外不会一直下雨，人生也不会一直乌云密布。</p>
-<p><hr><br>你所浪费的今天，是昨日死去之人苦苦奢望的明天，你所厌恶的现在，是未来的你再也回不去的曾经。</p>
-<p><hr><br>正真的离别，没有长亭古道，也没有劝君更敬一杯酒，只有在一个和以往一样的清晨，有的人留在了昨天。</p>
-<p><hr><br>只有彻底失去某个人，才能真正明白，那个人在自己心中的重量。<br>慎终如始、坚守初心才是正道，万万不可因为走得太远，而忘记了为什么出发。</p>
-<p><hr><br>我像一个拾荒者，一片一片的拾起我们的曾经 然后在某一个夏日的午后，拼凑起来晒出自己美好的回忆。</p>
-<p><hr><br>听故事的人终会成为讲故事的人，讲故事的人也难免变成故事里的人。</p>
-<p><hr><br>总会有一个温柔的人，给你来带温柔的月亮。</p>
-<p><hr><br>困住我的从来都不是世间万物 而是我那颗躁动不安的心</p>
-]]></content>
-      <categories>
-        <category>好句</category>
-      </categories>
-      <tags>
-        <tag>好句</tag>
-        <tag>收集</tag>
       </tags>
   </entry>
 </search>
