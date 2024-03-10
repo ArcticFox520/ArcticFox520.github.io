@@ -1,68 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Java学习笔记 (二)</title>
-    <url>/posts/7d89baea/</url>
-    <content><![CDATA[<h1 id="Java注释"><a href="#Java注释" class="headerlink" title="Java注释"></a>Java注释</h1><h2 id="什么是注释"><a href="#什么是注释" class="headerlink" title="什么是注释?"></a>什么是注释?</h2><ul>
-<li>通过在代码中添加文本说明，来帮助其他开发者理解和维护代码。</li>
-<li><code>简单理解</code>: 代码注释犹如代码的使用说明书，它帮助我们了解代码功能、逻辑和实现细节，便于他人理解和修改。</li>
-<li>同时，养成写注释也有助我们在<code>未来</code>对代码的维护。<h2 id="注释类型"><a href="#注释类型" class="headerlink" title="注释类型"></a>注释类型</h2></li>
-<li>Java共有三种注释类型<ul>
-<li>单行注释<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//形式一</span></span><br><span class="line"><span class="comment">//单行注释</span></span><br></pre></td></tr></table></figure></li>
-<li>多行注释<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">  形式二</span></span><br><span class="line"><span class="comment">  多行注释</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure></li>
-<li>文档注释 (Java特有)<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  <span class="doctag">@author</span>  指定java程序的作者</span></span><br><span class="line"><span class="comment">  <span class="doctag">@version</span> 指定源文件的版本</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
-<h2 id="具体使用"><a href="#具体使用" class="headerlink" title="具体使用"></a>具体使用</h2></li>
-</ul>
-<ol>
-<li>普通注释</li>
-</ol>
-<ul>
-<li>单行注释与多行注释都<code>不会</code>参与程序的编译过程，所以也不会被<code>JVM</code>（java虚拟机）解释执行。</li>
-<li>多行注释里面不允许有多行注释嵌套。</li>
-</ul>
-<ol>
-<li>文档注释</li>
-</ol>
-<ul>
-<li>文档注释内容可以被JDK提供的工具 javadoc 所解析，生成一套以网页文件形式体现的该程序的说明文档。</li>
-<li>操作方式（命令）</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">javadoc -d mydoc -author -version 源文件名.java</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>分享</tag>
-        <tag>java</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux学习-入门篇 (二)</title>
-    <url>/posts/95cbc5a8/</url>
-    <content><![CDATA[<h1 id="亲手部署Linux"><a href="#亲手部署Linux" class="headerlink" title="亲手部署Linux"></a>亲手部署Linux</h1><blockquote>
-<p>这一节主要偏向于实战风，大家遇到问题可以在底下留言。<br><div class="note success flat"><details>
-<summary>Android教程</summary>
-<a href="https://gitee.com/baihu433/Yunzai-Bot-Shell/blob/master/Markdown/Ubuntu.md"><p>教程链接</p></a>
-</details></div><br><div class="note info flat"><details>
-<summary>Windows教程</summary>
-<a href="https://learn.microsoft.com/zh-cn/windows/wsl/install"><p>教程链接</p></a>
-</details></div></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>分享</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Linux学习-入门篇 (三)</title>
     <url>/posts/eb38e583/</url>
     <content><![CDATA[<h1 id="认识命令行"><a href="#认识命令行" class="headerlink" title="认识命令行"></a>认识命令行</h1><ul>
@@ -163,114 +101,25 @@ ps：之后会讲用户的知识
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/posts/4a17b156/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>好句收集 (一)</title>
-    <url>/posts/b5c675f1/</url>
-    <content><![CDATA[<p>极光不会因为你的不完美而缺陷，因为，爱就是心中不朽的极光！</p>
-<p><hr><br>前进会带来失去，但也会带来相遇。</p>
-<p><hr><br>别担心，窗外不会一直下雨，人生也不会一直乌云密布。</p>
-<p><hr><br>你所浪费的今天，是昨日死去之人苦苦奢望的明天，你所厌恶的现在，是未来的你再也回不去的曾经。</p>
-<p><hr><br>正真的离别，没有长亭古道，也没有劝君更敬一杯酒，只有在一个和以往一样的清晨，有的人留在了昨天。</p>
-<p><hr><br>只有彻底失去某个人，才能真正明白，那个人在自己心中的重量。<br>慎终如始、坚守初心才是正道，万万不可因为走得太远，而忘记了为什么出发。</p>
-<p><hr><br>我像一个拾荒者，一片一片的拾起我们的曾经 然后在某一个夏日的午后，拼凑起来晒出自己美好的回忆。</p>
-<p><hr><br>听故事的人终会成为讲故事的人，讲故事的人也难免变成故事里的人。</p>
-<p><hr><br>总会有一个温柔的人，给你来带温柔的月亮。</p>
-<p><hr><br>困住我的从来都不是世间万物 而是我那颗躁动不安的心</p>
+    <title>Linux学习-入门篇 (二)</title>
+    <url>/posts/95cbc5a8/</url>
+    <content><![CDATA[<h1 id="亲手部署Linux"><a href="#亲手部署Linux" class="headerlink" title="亲手部署Linux"></a>亲手部署Linux</h1><blockquote>
+<p>这一节主要偏向于实战风，大家遇到问题可以在底下留言。<br><div class="note success flat"><details>
+<summary>Android教程</summary>
+<a href="https://gitee.com/baihu433/Yunzai-Bot-Shell/blob/master/Markdown/Ubuntu.md"><p>教程链接</p></a>
+</details></div><br><div class="note info flat"><details>
+<summary>Windows教程</summary>
+<a href="https://learn.microsoft.com/zh-cn/windows/wsl/install"><p>教程链接</p></a>
+</details></div></p>
+</blockquote>
 ]]></content>
       <categories>
-        <category>好句</category>
+        <category>技术</category>
       </categories>
       <tags>
-        <tag>好句</tag>
-        <tag>收集</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>安慰人，这句话够了</title>
-    <url>/posts/6303ae4e/</url>
-    <content><![CDATA[<h2 id="你已经做的很好了，不用逼自己那么辛苦，下次一定会更好。"><a href="#你已经做的很好了，不用逼自己那么辛苦，下次一定会更好。" class="headerlink" title="你已经做的很好了，不用逼自己那么辛苦，下次一定会更好。"></a>你已经做的很好了，不用逼自己那么辛苦，下次一定会更好。</h2><h2 id="有压力是正常的，说出来总会好一些，不要把所有压力和不高兴都无声的消化了。"><a href="#有压力是正常的，说出来总会好一些，不要把所有压力和不高兴都无声的消化了。" class="headerlink" title="有压力是正常的，说出来总会好一些，不要把所有压力和不高兴都无声的消化了。"></a>有压力是正常的，说出来总会好一些，不要把所有压力和不高兴都无声的消化了。</h2><h2 id="相信你的能力，这个难题你一定可以克服，你那么聪明，一定可以找到解决办法。"><a href="#相信你的能力，这个难题你一定可以克服，你那么聪明，一定可以找到解决办法。" class="headerlink" title="相信你的能力，这个难题你一定可以克服，你那么聪明，一定可以找到解决办法。"></a>相信你的能力，这个难题你一定可以克服，你那么聪明，一定可以找到解决办法。</h2>]]></content>
-      <categories>
-        <category>好句</category>
-      </categories>
-      <tags>
-        <tag>好句</tag>
-        <tag>收集</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>诗歌收集 (二)</title>
-    <url>/posts/3160a861/</url>
-    <content><![CDATA[<ul>
-<li>原文<ul>
-<li>爱的人就在眼前</li>
-</ul>
-</li>
-<li>古文<ul>
-<li>海底月是天上月</li>
-<li>眼前人是心上人</li>
-</ul>
-</li>
-</ul>
-<hr>
-<ul>
-<li>原文<ul>
-<li>在我眼中你是最美的</li>
-</ul>
-</li>
-<li>古文<ul>
-<li>日落西山非我意</li>
-<li>晚霞再好不及你</li>
-</ul>
-</li>
-</ul>
-<hr>
-<ul>
-<li>原文<ul>
-<li>真的很难过</li>
-</ul>
-</li>
-<li>古文<ul>
-<li>半身风雨半别凉</li>
-<li>半句别恨半句凉</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>好句</category>
-      </categories>
-      <tags>
-        <tag>收集</tag>
-        <tag>诗歌</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>诗歌收集 (一)</title>
-    <url>/posts/9e513303/</url>
-    <content><![CDATA[<center>我与春风皆过客，你携秋风揽星河。</center>
-<hr>
-<center>从此音尘各悄然，春山如黛草如烟。</center>
-<hr>
-<center>三里清风三里路，步步春风再无你。</center>]]></content>
-      <categories>
-        <category>诗歌</category>
-      </categories>
-      <tags>
-        <tag>收集</tag>
-        <tag>诗歌</tag>
+        <tag>技术</tag>
+        <tag>分享</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -329,6 +178,117 @@ ps：之后会讲用户的知识
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/posts/4a17b156/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>好句收集 (一)</title>
+    <url>/posts/b5c675f1/</url>
+    <content><![CDATA[<p>极光不会因为你的不完美而缺陷，因为，爱就是心中不朽的极光！</p>
+<p><hr><br>前进会带来失去，但也会带来相遇。</p>
+<p><hr><br>别担心，窗外不会一直下雨，人生也不会一直乌云密布。</p>
+<p><hr><br>你所浪费的今天，是昨日死去之人苦苦奢望的明天，你所厌恶的现在，是未来的你再也回不去的曾经。</p>
+<p><hr><br>正真的离别，没有长亭古道，也没有劝君更敬一杯酒，只有在一个和以往一样的清晨，有的人留在了昨天。</p>
+<p><hr><br>只有彻底失去某个人，才能真正明白，那个人在自己心中的重量。<br>慎终如始、坚守初心才是正道，万万不可因为走得太远，而忘记了为什么出发。</p>
+<p><hr><br>我像一个拾荒者，一片一片的拾起我们的曾经 然后在某一个夏日的午后，拼凑起来晒出自己美好的回忆。</p>
+<p><hr><br>听故事的人终会成为讲故事的人，讲故事的人也难免变成故事里的人。</p>
+<p><hr><br>总会有一个温柔的人，给你来带温柔的月亮。</p>
+<p><hr><br>困住我的从来都不是世间万物 而是我那颗躁动不安的心</p>
+]]></content>
+      <categories>
+        <category>好句</category>
+      </categories>
+      <tags>
+        <tag>好句</tag>
+        <tag>收集</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>诗歌收集 (一)</title>
+    <url>/posts/9e513303/</url>
+    <content><![CDATA[<center>我与春风皆过客，你携秋风揽星河。</center>
+<hr>
+<center>从此音尘各悄然，春山如黛草如烟。</center>
+<hr>
+<center>三里清风三里路，步步春风再无你。</center>]]></content>
+      <categories>
+        <category>诗歌</category>
+      </categories>
+      <tags>
+        <tag>收集</tag>
+        <tag>诗歌</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>诗歌收集 (二)</title>
+    <url>/posts/3160a861/</url>
+    <content><![CDATA[<ul>
+<li>原文<ul>
+<li>爱的人就在眼前</li>
+</ul>
+</li>
+<li>古文<ul>
+<li>海底月是天上月</li>
+<li>眼前人是心上人</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li>原文<ul>
+<li>在我眼中你是最美的</li>
+</ul>
+</li>
+<li>古文<ul>
+<li>日落西山非我意</li>
+<li>晚霞再好不及你</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li>原文<ul>
+<li>真的很难过</li>
+</ul>
+</li>
+<li>古文<ul>
+<li>半身风雨半别凉</li>
+<li>半句别恨半句凉</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>好句</category>
+      </categories>
+      <tags>
+        <tag>收集</tag>
+        <tag>诗歌</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安慰人，这句话够了</title>
+    <url>/posts/6303ae4e/</url>
+    <content><![CDATA[<h2 id="你已经做的很好了，不用逼自己那么辛苦，下次一定会更好。"><a href="#你已经做的很好了，不用逼自己那么辛苦，下次一定会更好。" class="headerlink" title="你已经做的很好了，不用逼自己那么辛苦，下次一定会更好。"></a>你已经做的很好了，不用逼自己那么辛苦，下次一定会更好。</h2><h2 id="有压力是正常的，说出来总会好一些，不要把所有压力和不高兴都无声的消化了。"><a href="#有压力是正常的，说出来总会好一些，不要把所有压力和不高兴都无声的消化了。" class="headerlink" title="有压力是正常的，说出来总会好一些，不要把所有压力和不高兴都无声的消化了。"></a>有压力是正常的，说出来总会好一些，不要把所有压力和不高兴都无声的消化了。</h2><h2 id="相信你的能力，这个难题你一定可以克服，你那么聪明，一定可以找到解决办法。"><a href="#相信你的能力，这个难题你一定可以克服，你那么聪明，一定可以找到解决办法。" class="headerlink" title="相信你的能力，这个难题你一定可以克服，你那么聪明，一定可以找到解决办法。"></a>相信你的能力，这个难题你一定可以克服，你那么聪明，一定可以找到解决办法。</h2>]]></content>
+      <categories>
+        <category>好句</category>
+      </categories>
+      <tags>
+        <tag>好句</tag>
+        <tag>收集</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Java学习笔记 (一)</title>
     <url>/posts/d2b82188/</url>
     <content><![CDATA[<h1 id="HelloWorld"><a href="#HelloWorld" class="headerlink" title="HelloWorld"></a>HelloWorld</h1><h2 id="Java程序开发三步骤：编写、编译、运行。"><a href="#Java程序开发三步骤：编写、编译、运行。" class="headerlink" title="Java程序开发三步骤：编写、编译、运行。"></a>Java程序开发三步骤：编写、编译、运行。</h2><ul>
@@ -342,6 +302,46 @@ ps：之后会讲用户的知识
 <h2 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h2><p>同样是也需要在字节码文件的同目录下，但使用的命令是<code>java</code>而不是<code>javac</code>并且<code>不需要</code>带文件后缀名<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">举例：</span><br><span class="line">java HelloChina</span><br><span class="line">错误演示：</span><br><span class="line">java HelloChina.class</span><br></pre></td></tr></table></figure></p>
 <h2 id="成果图"><a href="#成果图" class="headerlink" title="成果图"></a>成果图</h2><p><img src="https://jsd.012700.xyz/gh/baihu433/image/image/1707706526814.png" alt="图片来源于网络"></p>
 ]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>分享</tag>
+        <tag>java</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java学习笔记 (二)</title>
+    <url>/posts/7d89baea/</url>
+    <content><![CDATA[<h1 id="Java注释"><a href="#Java注释" class="headerlink" title="Java注释"></a>Java注释</h1><h2 id="什么是注释"><a href="#什么是注释" class="headerlink" title="什么是注释?"></a>什么是注释?</h2><ul>
+<li>通过在代码中添加文本说明，来帮助其他开发者理解和维护代码。</li>
+<li><code>简单理解</code>: 代码注释犹如代码的使用说明书，它帮助我们了解代码功能、逻辑和实现细节，便于他人理解和修改。</li>
+<li>同时，养成写注释也有助我们在<code>未来</code>对代码的维护。<h2 id="注释类型"><a href="#注释类型" class="headerlink" title="注释类型"></a>注释类型</h2></li>
+<li>Java共有三种注释类型<ul>
+<li>单行注释<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//形式一</span></span><br><span class="line"><span class="comment">//单行注释</span></span><br></pre></td></tr></table></figure></li>
+<li>多行注释<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">  形式二</span></span><br><span class="line"><span class="comment">  多行注释</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure></li>
+<li>文档注释 (Java特有)<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  <span class="doctag">@author</span>  指定java程序的作者</span></span><br><span class="line"><span class="comment">  <span class="doctag">@version</span> 指定源文件的版本</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
+<h2 id="具体使用"><a href="#具体使用" class="headerlink" title="具体使用"></a>具体使用</h2></li>
+</ul>
+<ol>
+<li>普通注释</li>
+</ol>
+<ul>
+<li>单行注释与多行注释都<code>不会</code>参与程序的编译过程，所以也不会被<code>JVM</code>（java虚拟机）解释执行。</li>
+<li>多行注释里面不允许有多行注释嵌套。</li>
+</ul>
+<ol>
+<li>文档注释</li>
+</ol>
+<ul>
+<li>文档注释内容可以被JDK提供的工具 javadoc 所解析，生成一套以网页文件形式体现的该程序的说明文档。</li>
+<li>操作方式（命令）</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">javadoc -d mydoc -author -version 源文件名.java</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>技术</category>
       </categories>

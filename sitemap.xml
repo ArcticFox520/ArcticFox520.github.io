@@ -160,20 +160,6 @@
   </url>
   
   <url>
-    <loc>https://arcticfox.top/tags/java/</loc>
-    <lastmod>2024-03-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://arcticfox.top/tags/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2024-03-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://arcticfox.top/tags/Linux/</loc>
     <lastmod>2024-03-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -196,6 +182,20 @@
   
   <url>
     <loc>https://arcticfox.top/tags/%E8%AF%97%E6%AD%8C/</loc>
+    <lastmod>2024-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://arcticfox.top/tags/java/</loc>
+    <lastmod>2024-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://arcticfox.top/tags/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2024-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
