@@ -25,6 +25,101 @@
       </tags>
   </entry>
   <entry>
+    <title>Java学习笔记 (二)</title>
+    <url>/posts/7d89baea/</url>
+    <content><![CDATA[<h1 id="Java注释"><a href="#Java注释" class="headerlink" title="Java注释"></a>Java注释</h1><h2 id="什么是注释"><a href="#什么是注释" class="headerlink" title="什么是注释?"></a>什么是注释?</h2><ul>
+<li>通过在代码中添加文本说明，来帮助其他开发者理解和维护代码。</li>
+<li><code>简单理解</code>: 代码注释犹如代码的使用说明书，它帮助我们了解代码功能、逻辑和实现细节，便于他人理解和修改。</li>
+<li>同时，养成写注释也有助我们在<code>未来</code>对代码的维护。<h2 id="注释类型"><a href="#注释类型" class="headerlink" title="注释类型"></a>注释类型</h2></li>
+<li>Java共有三种注释类型<ul>
+<li>单行注释<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//形式一</span></span><br><span class="line"><span class="comment">//单行注释</span></span><br></pre></td></tr></table></figure></li>
+<li>多行注释<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">  形式二</span></span><br><span class="line"><span class="comment">  多行注释</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure></li>
+<li>文档注释 (Java特有)<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  <span class="doctag">@author</span>  指定java程序的作者</span></span><br><span class="line"><span class="comment">  <span class="doctag">@version</span> 指定源文件的版本</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
+<h2 id="具体使用"><a href="#具体使用" class="headerlink" title="具体使用"></a>具体使用</h2></li>
+</ul>
+<ol>
+<li>普通注释</li>
+</ol>
+<ul>
+<li>单行注释与多行注释都<code>不会</code>参与程序的编译过程，所以也不会被<code>JVM</code>（java虚拟机）解释执行。</li>
+<li>多行注释里面不允许有多行注释嵌套。</li>
+</ul>
+<ol>
+<li>文档注释</li>
+</ol>
+<ul>
+<li>文档注释内容可以被JDK提供的工具 javadoc 所解析，生成一套以网页文件形式体现的该程序的说明文档。</li>
+<li>操作方式（命令）</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">javadoc -d mydoc -author -version 源文件名.java</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>分享</tag>
+        <tag>java</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux学习-入门篇 (一)</title>
+    <url>/posts/e4883857/</url>
+    <content><![CDATA[<h2 id="gt-在正式开始学习之前，我先唠唠嗑，因为有一个非常现实的问题——学习是一件非常痛苦的事情，如果说学习Linux系统真的很简单，那必定是骗子的谎言。在每天起床后的几分钟时间里，大脑都会陷入斗争状态：是该聊会儿天呢，还是要追个美剧呢，还是学习一下那该死的Linux系统呢？这个时候，请不要忘记自己的初心，未来的你一定会感谢现在努力的自己。"><a href="#gt-在正式开始学习之前，我先唠唠嗑，因为有一个非常现实的问题——学习是一件非常痛苦的事情，如果说学习Linux系统真的很简单，那必定是骗子的谎言。在每天起床后的几分钟时间里，大脑都会陷入斗争状态：是该聊会儿天呢，还是要追个美剧呢，还是学习一下那该死的Linux系统呢？这个时候，请不要忘记自己的初心，未来的你一定会感谢现在努力的自己。" class="headerlink" title="&gt; 在正式开始学习之前，我先唠唠嗑，因为有一个非常现实的问题——学习是一件非常痛苦的事情，如果说学习Linux系统真的很简单，那必定是骗子的谎言。在每天起床后的几分钟时间里，大脑都会陷入斗争状态：是该聊会儿天呢，还是要追个美剧呢，还是学习一下那该死的Linux系统呢？这个时候，请不要忘记自己的初心，未来的你一定会感谢现在努力的自己。"></a>&gt; 在正式开始学习之前，我先唠唠嗑，因为有一个非常现实的问题——<code>学习是一件非常痛苦的事情</code>，如果说学习Linux系统真的很简单，那必定是骗子的谎言。在每天起床后的几分钟时间里，大脑都会陷入斗争状态：是该聊会儿天呢，还是要追个美剧呢，还是学习一下那该死的Linux系统呢？这个时候，请不要忘记自己的初心，未来的你一定会感谢现在努力的自己。</h2><h1 id="Linux概述"><a href="#Linux概述" class="headerlink" title="Linux概述"></a>Linux概述</h1><blockquote>
+<p>Linux内核最初只是由芬兰人林纳斯·托瓦兹（Linus Torvalds）在赫尔辛基大学上学时出于个人爱好而编写的，当时还在读大学的Linus想要基于<code>Unix</code>的原则和设计来创建一个免费的开源系统，从而代替<code>MINIX</code>操作系统。<br></p>
+<ol>
+<li>Linux基于<code>GNU 通用公共许可证（GPL）</code>的开放源代码特性，迅速得到了GNU源代码开放计划和一大批程序员的支持，随后Linux正式进入如火如荼的发展阶段。</li>
+<li>Linux系统的吉祥物名为<code>Tux</code>，是一只呆萌的小企鹅。<img src="https://jsd.012700.xyz/gh/baihu433/image/image/1707831915290.jpg" alt="Linux图片及吉祥物"><h1 id="常见的Linux系统版本"><a href="#常见的Linux系统版本" class="headerlink" title="常见的Linux系统版本"></a>常见的Linux系统版本</h1>在介绍常见的Linux系统版本之前，首先需要区分Linux系统内核与Linux发行套件系统的不同。</li>
+</ol>
+<ul>
+<li><code>Linux内核</code>是操作系统的核心，负责提供基本的操作系统功能。</li>
+<li><code>Linux发行套件系统</code>是在内核的基础上，添加了各种实用工具、应用程序和图形界面等组件，形成一个完整的操作系统。</li>
+</ul>
+<hr>
+<h2 id="全球的Linux系统大约有近百款，每个系统都有自己的特点与针对性，我这里只列出四种常见的Linux系统。"><a href="#全球的Linux系统大约有近百款，每个系统都有自己的特点与针对性，我这里只列出四种常见的Linux系统。" class="headerlink" title="全球的Linux系统大约有近百款，每个系统都有自己的特点与针对性，我这里只列出四种常见的Linux系统。"></a><span  style="font-size:0.7em;">全球的Linux系统大约有近百款，每个系统都有自己的特点与针对性，我这里只列出四种常见的Linux系统。</span></h2><h2 id="引用一下刘瑞老师的话-“我们并不是因为开源而喜欢Linux，而是因为Linux系统真的非常优秀，开源精神仅仅是锦上添花而已。”"><a href="#引用一下刘瑞老师的话-“我们并不是因为开源而喜欢Linux，而是因为Linux系统真的非常优秀，开源精神仅仅是锦上添花而已。”" class="headerlink" title="引用一下刘瑞老师的话: “我们并不是因为开源而喜欢Linux，而是因为Linux系统真的非常优秀，开源精神仅仅是锦上添花而已。”"></a>引用一下刘瑞老师的话: “我们并不是因为开源而喜欢Linux，而是因为Linux系统真的非常优秀，开源精神仅仅是锦上添花而已。”</h2><h2 id="1-CentOS"><a href="#1-CentOS" class="headerlink" title="1. CentOS"></a>1. CentOS</h2><div align="center"><img alt="CentOS" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707833168116.png"></div>
+
+</blockquote>
+<ul>
+<li>CentOS是一款基于Red  Hat  Enterprise  Linux（RHEL）的开源操作系统，它具有稳定性高、兼容性强等特点，广泛应用于服务器领域。CentOS全称<code>Community  Enterprise  Operating  System</code>，意为社区企业操作系统。</li>
+<li><p>在CentOS中，使用的包管理器是<code>yum</code>（Yellow dog Updater Modified）yum是一款强大的软件包管理器，它能够方便地安装、升级和删除软件包。</p>
+<h2 id="2-Debian-Linux"><a href="#2-Debian-Linux" class="headerlink" title="2. Debian Linux"></a>2. Debian Linux</h2><div align="center"><img alt="Debian" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707833828652.jpg"></div>
+</li>
+<li><p>Debian是一款著名的开源操作系统，它以稳定性、安全性和自由度著称。它由Debian   Foundation维护。</p>
+</li>
+<li><p>在Debian中，使用的包管理器是<code>apt</code>（Advanced   Package   Tool）。apt是一款强大的包管理器，它继承了Debian的稳定性特点。</p>
+<h2 id="3-Ubuntu-Linux"><a href="#3-Ubuntu-Linux" class="headerlink" title="3. Ubuntu Linux"></a>3. Ubuntu Linux</h2><div align="center"><img alt="Ubuntu" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707833168115.png"></div>
+</li>
+<li><p>Ubuntu是一款基于Debian的开源操作系统，由Canonical  Ltd.公司支持和发展。它以人性化、易用性和强大的社区支持而闻名。Ubuntu发行版定期发布新版本，并提供广泛的软件包和图形化界面，使得它深受广大用户喜爱。</p>
+</li>
+<li><p>在Ubuntu Linux中使用的包管理器是<code>apt</code>（Advanced   Package   Tool），apt具有稳定性、可靠性和自动化等特点，可以满足用户在安装、升级和删除软件包方面的需求。</p>
+<h2 id="4-Arch-Linux"><a href="#4-Arch-Linux" class="headerlink" title="4. Arch Linux"></a>4. Arch Linux</h2><div align="center"><img alt="Arch" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707835060690.jpg"></div>
+</li>
+<li><p>Arch  Linux是一款以简单、轻量级和定制性强著称的开源操作系统。它采用了滚动发布模式，意味着用户可以始终使用最新的软件包。Arch  Linux的设计理念强调简洁和自由度，允许用户根据需求自由定制系统。</p>
+</li>
+<li>在Arch  Linux中，使用的包管理器是<code>pacman</code>，因它具有易于使用和灵活的特点，所以成为了Arch Linux 社区的标志之一。</li>
+</ul>
+<hr>
+<h2 id="gt-虽然有这么多Linux系统，但我要说的一点就是——没有最好的系统，只最适合需求的系统。"><a href="#gt-虽然有这么多Linux系统，但我要说的一点就是——没有最好的系统，只最适合需求的系统。" class="headerlink" title=" &gt; 虽然有这么多Linux系统，但我要说的一点就是——没有最好的系统，只最适合需求的系统。"></a> &gt; 虽然有这么多Linux系统，但我要说的一点就是——没有最好的系统，只最适合需求的系统。</h2><blockquote>
+<p>总结：你阅读完本节之后你应该了解</p>
+<ol>
+<li>开源协议</li>
+<li>常见Linux系统的logo及其包管理器</li>
+</ol>
+<hr>
+</blockquote>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>分享</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux学习-入门篇 (三)</title>
     <url>/posts/eb38e583/</url>
     <content><![CDATA[<h1 id="认识命令行"><a href="#认识命令行" class="headerlink" title="认识命令行"></a>认识命令行</h1><ul>
@@ -233,101 +328,6 @@ ps：之后会讲用户的知识
       <tags>
         <tag>收集</tag>
         <tag>诗歌</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java学习笔记 (二)</title>
-    <url>/posts/7d89baea/</url>
-    <content><![CDATA[<h1 id="Java注释"><a href="#Java注释" class="headerlink" title="Java注释"></a>Java注释</h1><h2 id="什么是注释"><a href="#什么是注释" class="headerlink" title="什么是注释?"></a>什么是注释?</h2><ul>
-<li>通过在代码中添加文本说明，来帮助其他开发者理解和维护代码。</li>
-<li><code>简单理解</code>: 代码注释犹如代码的使用说明书，它帮助我们了解代码功能、逻辑和实现细节，便于他人理解和修改。</li>
-<li>同时，养成写注释也有助我们在<code>未来</code>对代码的维护。<h2 id="注释类型"><a href="#注释类型" class="headerlink" title="注释类型"></a>注释类型</h2></li>
-<li>Java共有三种注释类型<ul>
-<li>单行注释<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//形式一</span></span><br><span class="line"><span class="comment">//单行注释</span></span><br></pre></td></tr></table></figure></li>
-<li>多行注释<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">  形式二</span></span><br><span class="line"><span class="comment">  多行注释</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure></li>
-<li>文档注释 (Java特有)<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  <span class="doctag">@author</span>  指定java程序的作者</span></span><br><span class="line"><span class="comment">  <span class="doctag">@version</span> 指定源文件的版本</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
-<h2 id="具体使用"><a href="#具体使用" class="headerlink" title="具体使用"></a>具体使用</h2></li>
-</ul>
-<ol>
-<li>普通注释</li>
-</ol>
-<ul>
-<li>单行注释与多行注释都<code>不会</code>参与程序的编译过程，所以也不会被<code>JVM</code>（java虚拟机）解释执行。</li>
-<li>多行注释里面不允许有多行注释嵌套。</li>
-</ul>
-<ol>
-<li>文档注释</li>
-</ol>
-<ul>
-<li>文档注释内容可以被JDK提供的工具 javadoc 所解析，生成一套以网页文件形式体现的该程序的说明文档。</li>
-<li>操作方式（命令）</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">javadoc -d mydoc -author -version 源文件名.java</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>分享</tag>
-        <tag>java</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux学习-入门篇 (一)</title>
-    <url>/posts/e4883857/</url>
-    <content><![CDATA[<h2 id="gt-在正式开始学习之前，我先唠唠嗑，因为有一个非常现实的问题——学习是一件非常痛苦的事情，如果说学习Linux系统真的很简单，那必定是骗子的谎言。在每天起床后的几分钟时间里，大脑都会陷入斗争状态：是该聊会儿天呢，还是要追个美剧呢，还是学习一下那该死的Linux系统呢？这个时候，请不要忘记自己的初心，未来的你一定会感谢现在努力的自己。"><a href="#gt-在正式开始学习之前，我先唠唠嗑，因为有一个非常现实的问题——学习是一件非常痛苦的事情，如果说学习Linux系统真的很简单，那必定是骗子的谎言。在每天起床后的几分钟时间里，大脑都会陷入斗争状态：是该聊会儿天呢，还是要追个美剧呢，还是学习一下那该死的Linux系统呢？这个时候，请不要忘记自己的初心，未来的你一定会感谢现在努力的自己。" class="headerlink" title="&gt; 在正式开始学习之前，我先唠唠嗑，因为有一个非常现实的问题——学习是一件非常痛苦的事情，如果说学习Linux系统真的很简单，那必定是骗子的谎言。在每天起床后的几分钟时间里，大脑都会陷入斗争状态：是该聊会儿天呢，还是要追个美剧呢，还是学习一下那该死的Linux系统呢？这个时候，请不要忘记自己的初心，未来的你一定会感谢现在努力的自己。"></a>&gt; 在正式开始学习之前，我先唠唠嗑，因为有一个非常现实的问题——<code>学习是一件非常痛苦的事情</code>，如果说学习Linux系统真的很简单，那必定是骗子的谎言。在每天起床后的几分钟时间里，大脑都会陷入斗争状态：是该聊会儿天呢，还是要追个美剧呢，还是学习一下那该死的Linux系统呢？这个时候，请不要忘记自己的初心，未来的你一定会感谢现在努力的自己。</h2><h1 id="Linux概述"><a href="#Linux概述" class="headerlink" title="Linux概述"></a>Linux概述</h1><blockquote>
-<p>Linux内核最初只是由芬兰人林纳斯·托瓦兹（Linus Torvalds）在赫尔辛基大学上学时出于个人爱好而编写的，当时还在读大学的Linus想要基于<code>Unix</code>的原则和设计来创建一个免费的开源系统，从而代替<code>MINIX</code>操作系统。<br></p>
-<ol>
-<li>Linux基于<code>GNU 通用公共许可证（GPL）</code>的开放源代码特性，迅速得到了GNU源代码开放计划和一大批程序员的支持，随后Linux正式进入如火如荼的发展阶段。</li>
-<li>Linux系统的吉祥物名为<code>Tux</code>，是一只呆萌的小企鹅。<img src="https://jsd.012700.xyz/gh/baihu433/image/image/1707831915290.jpg" alt="Linux图片及吉祥物"><h1 id="常见的Linux系统版本"><a href="#常见的Linux系统版本" class="headerlink" title="常见的Linux系统版本"></a>常见的Linux系统版本</h1>在介绍常见的Linux系统版本之前，首先需要区分Linux系统内核与Linux发行套件系统的不同。</li>
-</ol>
-<ul>
-<li><code>Linux内核</code>是操作系统的核心，负责提供基本的操作系统功能。</li>
-<li><code>Linux发行套件系统</code>是在内核的基础上，添加了各种实用工具、应用程序和图形界面等组件，形成一个完整的操作系统。</li>
-</ul>
-<hr>
-<h2 id="全球的Linux系统大约有近百款，每个系统都有自己的特点与针对性，我这里只列出四种常见的Linux系统。"><a href="#全球的Linux系统大约有近百款，每个系统都有自己的特点与针对性，我这里只列出四种常见的Linux系统。" class="headerlink" title="全球的Linux系统大约有近百款，每个系统都有自己的特点与针对性，我这里只列出四种常见的Linux系统。"></a><span  style="font-size:0.7em;">全球的Linux系统大约有近百款，每个系统都有自己的特点与针对性，我这里只列出四种常见的Linux系统。</span></h2><h2 id="引用一下刘瑞老师的话-“我们并不是因为开源而喜欢Linux，而是因为Linux系统真的非常优秀，开源精神仅仅是锦上添花而已。”"><a href="#引用一下刘瑞老师的话-“我们并不是因为开源而喜欢Linux，而是因为Linux系统真的非常优秀，开源精神仅仅是锦上添花而已。”" class="headerlink" title="引用一下刘瑞老师的话: “我们并不是因为开源而喜欢Linux，而是因为Linux系统真的非常优秀，开源精神仅仅是锦上添花而已。”"></a>引用一下刘瑞老师的话: “我们并不是因为开源而喜欢Linux，而是因为Linux系统真的非常优秀，开源精神仅仅是锦上添花而已。”</h2><h2 id="1-CentOS"><a href="#1-CentOS" class="headerlink" title="1. CentOS"></a>1. CentOS</h2><div align="center"><img alt="CentOS" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707833168116.png"></div>
-
-</blockquote>
-<ul>
-<li>CentOS是一款基于Red  Hat  Enterprise  Linux（RHEL）的开源操作系统，它具有稳定性高、兼容性强等特点，广泛应用于服务器领域。CentOS全称<code>Community  Enterprise  Operating  System</code>，意为社区企业操作系统。</li>
-<li><p>在CentOS中，使用的包管理器是<code>yum</code>（Yellow dog Updater Modified）yum是一款强大的软件包管理器，它能够方便地安装、升级和删除软件包。</p>
-<h2 id="2-Debian-Linux"><a href="#2-Debian-Linux" class="headerlink" title="2. Debian Linux"></a>2. Debian Linux</h2><div align="center"><img alt="Debian" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707833828652.jpg"></div>
-</li>
-<li><p>Debian是一款著名的开源操作系统，它以稳定性、安全性和自由度著称。它由Debian   Foundation维护。</p>
-</li>
-<li><p>在Debian中，使用的包管理器是<code>apt</code>（Advanced   Package   Tool）。apt是一款强大的包管理器，它继承了Debian的稳定性特点。</p>
-<h2 id="3-Ubuntu-Linux"><a href="#3-Ubuntu-Linux" class="headerlink" title="3. Ubuntu Linux"></a>3. Ubuntu Linux</h2><div align="center"><img alt="Ubuntu" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707833168115.png"></div>
-</li>
-<li><p>Ubuntu是一款基于Debian的开源操作系统，由Canonical  Ltd.公司支持和发展。它以人性化、易用性和强大的社区支持而闻名。Ubuntu发行版定期发布新版本，并提供广泛的软件包和图形化界面，使得它深受广大用户喜爱。</p>
-</li>
-<li><p>在Ubuntu Linux中使用的包管理器是<code>apt</code>（Advanced   Package   Tool），apt具有稳定性、可靠性和自动化等特点，可以满足用户在安装、升级和删除软件包方面的需求。</p>
-<h2 id="4-Arch-Linux"><a href="#4-Arch-Linux" class="headerlink" title="4. Arch Linux"></a>4. Arch Linux</h2><div align="center"><img alt="Arch" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707835060690.jpg"></div>
-</li>
-<li><p>Arch  Linux是一款以简单、轻量级和定制性强著称的开源操作系统。它采用了滚动发布模式，意味着用户可以始终使用最新的软件包。Arch  Linux的设计理念强调简洁和自由度，允许用户根据需求自由定制系统。</p>
-</li>
-<li>在Arch  Linux中，使用的包管理器是<code>pacman</code>，因它具有易于使用和灵活的特点，所以成为了Arch Linux 社区的标志之一。</li>
-</ul>
-<hr>
-<h2 id="gt-虽然有这么多Linux系统，但我要说的一点就是——没有最好的系统，只最适合需求的系统。"><a href="#gt-虽然有这么多Linux系统，但我要说的一点就是——没有最好的系统，只最适合需求的系统。" class="headerlink" title=" &gt; 虽然有这么多Linux系统，但我要说的一点就是——没有最好的系统，只最适合需求的系统。"></a> &gt; 虽然有这么多Linux系统，但我要说的一点就是——没有最好的系统，只最适合需求的系统。</h2><blockquote>
-<p>总结：你阅读完本节之后你应该了解</p>
-<ol>
-<li>开源协议</li>
-<li>常见Linux系统的logo及其包管理器</li>
-</ol>
-<hr>
-</blockquote>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>分享</tag>
-        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
