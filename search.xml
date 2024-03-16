@@ -1,315 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Java学习笔记 (一)</title>
-    <url>/posts/d2b82188/</url>
-    <content><![CDATA[<h1 id="helloworld"><a class="markdownIt-Anchor" href="#helloworld"></a> HelloWorld</h1>
-<h2 id="java程序开发三步骤编写-编译-运行"><a class="markdownIt-Anchor" href="#java程序开发三步骤编写-编译-运行"></a> Java程序开发三步骤：编写、编译、运行。</h2>
-<ul>
-<li>将 Java 代码<code>编写</code>到扩展名为 .java 的源文件中。</li>
-<li>通过 javac 命令对该 java 文件进行<code>编译</code>，生成一个或多个字节码文件。</li>
-<li>通过 java 命令对生成的 class 文件进行<code>运行</code>。</li>
-</ul>
-<p><img src="https://jsd.012700.xyz/gh/baihu433/image/image/1707705342245.png" alt="图片来自网络" /></p>
-<h2 id="编写"><a class="markdownIt-Anchor" href="#编写"></a> 编写</h2>
-<p>新建一个<code>HelloWorld.java</code>文件，并写入一下内容。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">HelloChina</span> &#123;</span><br><span class="line">  	<span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    	System.out.println(<span class="string">&quot;HelloWorld!!&quot;</span>);</span><br><span class="line">  	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="编译"><a class="markdownIt-Anchor" href="#编译"></a> 编译</h2>
-<p>在java源文件所在目录内使用<code>javac</code>来编译源文件。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">命令：</span><br><span class="line">javac Java源文件名.后缀名(.java)</span><br><span class="line">举例：</span><br><span class="line">javac HelloWorld.java</span><br></pre></td></tr></table></figure>
-<p>成功编译的话，终端没有任何提示，但生成了一个HelloChina.class，这就是<code>字节码文件</code></p>
-<h2 id="运行"><a class="markdownIt-Anchor" href="#运行"></a> 运行</h2>
-<p>同样是也需要在字节码文件的同目录下，但使用的命令是<code>java</code>而不是<code>javac</code>并且<code>不需要</code>带文件后缀名</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">举例：</span><br><span class="line">java HelloChina</span><br><span class="line">错误演示：</span><br><span class="line">java HelloChina.class</span><br></pre></td></tr></table></figure>
-<h2 id="成果图"><a class="markdownIt-Anchor" href="#成果图"></a> 成果图</h2>
-<p><img src="https://jsd.012700.xyz/gh/baihu433/image/image/1707706526814.png" alt="图片来源于网络" /></p>
+    <title>Hello World</title>
+    <url>/posts/4a17b156/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2>
+<h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>分享</tag>
-        <tag>java</tag>
-        <tag>笔记</tag>
-      </tags>
   </entry>
   <entry>
-    <title>Java学习笔记 (二)</title>
-    <url>/posts/7d89baea/</url>
-    <content><![CDATA[<h1 id="java注释"><a class="markdownIt-Anchor" href="#java注释"></a> Java注释</h1>
-<h2 id="什么是注释"><a class="markdownIt-Anchor" href="#什么是注释"></a> 什么是注释?</h2>
-<ul>
-<li>通过在代码中添加文本说明，来帮助其他开发者理解和维护代码。</li>
-<li><code>简单理解</code>: 代码注释犹如代码的使用说明书，它帮助我们了解代码功能、逻辑和实现细节，便于他人理解和修改。</li>
-<li>同时，养成写注释也有助我们在<code>未来</code>对代码的维护。</li>
-</ul>
-<h2 id="注释类型"><a class="markdownIt-Anchor" href="#注释类型"></a> 注释类型</h2>
-<ul>
-<li>Java共有三种注释类型
-<ul>
-<li>单行注释</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//形式一</span></span><br><span class="line"><span class="comment">//单行注释</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>多行注释</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">  形式二</span></span><br><span class="line"><span class="comment">  多行注释</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>文档注释 (Java特有)</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">  <span class="doctag">@author</span>  指定java程序的作者</span></span><br><span class="line"><span class="comment">  <span class="doctag">@version</span> 指定源文件的版本</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
-<h2 id="具体使用"><a class="markdownIt-Anchor" href="#具体使用"></a> 具体使用</h2>
-<ol>
-<li>普通注释
-<ul>
-<li>单行注释与多行注释都<code>不会</code>参与程序的编译过程，所以也不会被<code>JVM</code>（java虚拟机）解释执行。</li>
-<li>多行注释里面不允许有多行注释嵌套。</li>
-</ul>
-</li>
-<li>文档注释
-<ul>
-<li>文档注释内容可以被JDK提供的工具 javadoc 所解析，生成一套以网页文件形式体现的该程序的说明文档。</li>
-<li>操作方式（命令）</li>
-</ul>
-</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">javadoc -d mydoc -author -version 源文件名.java</span><br></pre></td></tr></table></figure>]]></content>
+    <title>诗歌收集 (一)</title>
+    <url>/posts/9e513303/</url>
+    <content><![CDATA[<center>我与春风皆过客，你携秋风揽星河。</center>
+<hr>
+<center>从此音尘各悄然，春山如黛草如烟。</center>
+<hr>
+<center>三里清风三里路，步步春风再无你。</center>]]></content>
       <categories>
-        <category>技术</category>
+        <category>诗歌</category>
       </categories>
       <tags>
-        <tag>技术</tag>
-        <tag>分享</tag>
-        <tag>java</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux学习-入门篇 (三)</title>
-    <url>/posts/eb38e583/</url>
-    <content><![CDATA[<h1 id="认识命令行"><a class="markdownIt-Anchor" href="#认识命令行"></a> 认识命令行</h1>
-<ul>
-<li>命令行（Command  Line）是一种与<code>计算机交互</code>的方式，它允许用户通过在终端输入<code>文本命令</code>来控制和操作计算机。</li>
-<li>在命令行中，每个<code>命令</code>都由一个<code>关键字</code>（或称命令名）和一系列<code>参数</code>组成。</li>
-<li>命令行实际上就是一个电脑控制的<code>终端</code>，让你可以通过输入<code>命令</code>来操控计算机。</li>
-</ul>
-<div class="note primary flat"><p>Tips：想象一下，这就像是一个神秘的组织，你通过特定的密码或者暗号（也就是命令），就能解锁并获得计算机的力量（让计算机执行某些操作）。</p>
-</div>
-<h1 id="认识shell"><a class="markdownIt-Anchor" href="#认识shell"></a> 认识Shell</h1>
-<ul>
-<li>shell是一个用 C 语言编写的程序，它是用户使用 Linux 的<code>桥梁</code>。用户通过Shell访问操作<code>系统内核</code>的服务。</li>
-<li>Shell可以理解为一个<code>命令翻译器</code>，它位于<code>操作系统</code>和<code>计算机用户</code>之间，负责<code>接收</code>用户的指令，然后将这些指令<code>转换</code>成计算机能理解的命令，从而让计算机<code>执行相应</code>操作。</li>
-</ul>
-<div class="note success flat"><p>Tips：我们可以把shell想象成一个翻译员，他能理解用户说的话，然后帮用户与计算机沟通。</p>
-</div>
-<h1 id="认识bash"><a class="markdownIt-Anchor" href="#认识bash"></a> 认识Bash</h1>
-<ul>
-<li>Bash可以理解为一个<code>更加智能、高效</code>的终端程序。它不仅可以执行简单的<code>命令</code>，还支持复杂的<code>脚本</code>编写，允许用户通过编写脚本实现<code>自动化</code>操作。</li>
-<li>Bash是Linux系统和Unix系统的一种Shell（命令行环境），是目前绝大多数<code>Linux</code>发行版的<code>默认</code>终端程序。</li>
-</ul>
-<div class="note info flat"><p>Tips：Shell与Bash是包含与被包含的关系。<br />
-举例来说，在社会中有翻译官这个职业，它是由许多从业者共同组成的职业名称，而Bash则是其中一个出色的成员，是Shell终端程序中的一份子。</p>
-</div>
-<h1 id="命令详解"><a class="markdownIt-Anchor" href="#命令详解"></a> 命令详解</h1>
-<blockquote>
-<p>常见的执行Linux命令的格式是下面这样的：<br />
-<code>root@localhost:~# 命令 [参数] [对象]</code></p>
-</blockquote>
-<div class="note primary flat"><details>
-<summary>:和@</summary>
-这是提示符的分隔符号，没有特殊含义。
-</details></div>
-<div class="note secondary flat"><details>
-<summary>root</summary>
-显示的是系统当前登录的用户。
-</details></div>
-<div class="note danger flat"><details>
-<summary>localhost</summary>
-当前登录的主机名
-</details></div>
-<div class="note success flat"><details>
-<summary>~</summary>
-代表用户当前所在的目录<br>
-ps: 之后会讲目录的知识
-</details></div>
-<div class="note warning flat"><details>
-<summary>#</summary>
-命令提示符<br>
-超级用户是 #<br>
-普通用户是 $<br>
-ps：之后会讲用户的知识
-</details></div>
-<div class="note info flat"><details>
-<summary>命令</summary>
-命令的名称或命令的关键字。<br>
-可以理解为语法中的动词。<br>
-比如 穿衣服中的穿。
-</details></div>
-<div class="note info flat"><details>
-<summary>参数</summary>
-命令的执行要求<br>
-可以理解为语法中的修饰词。<br>
-用于对命令进行调整，让调整过的命令能更好地贴合工作需求。<br>
-比如 裁剪衣物，让它们更加贴合你的体型。
-</details></div>
-<div class="note info flat"><details>
-<summary>对象</summary>
-命令的执行对象<br>
-可以理解为语法中的名词。<br>
-一般指要处理的文件、目录、用户等资源名称，也就是命令执行后的“承受方”。<br>
-比如 穿衣服中的衣服。
-</details></div>
-<h1 id="第一个命令-man"><a class="markdownIt-Anchor" href="#第一个命令-man"></a> 第一个命令 man</h1>
-<blockquote>
-<p>Linux命令具有这参数多且格式复杂，因此，就有Linux初学者问“<code>Linux系统中有那么多命令，我怎么知道某个命令是干嘛用的？在日常工作中遇到了一个不熟悉的Linux命令，我又怎样才能知道它有哪些可用参数呢？</code>”man命令就可以帮助到你，<code>man</code> 后面<code>直接</code>接其他命令名称可以查看其他命令的帮助</p>
-</blockquote>
-<ul>
-<li><code>man</code>命令有很多参数</li>
-<li>其中分为<code>短格式</code>和<code>长格式</code>。<br />
-|短格式|长格式|<br />
-|:----------😐:----------😐<br />
-|<code>man [-h]</code>|<code>man [--help]</code>|</li>
-<li>注意到了吗？ man的命令带了[]，这说明我们可以直接执行man命令</li>
-</ul>
-<p><img src="https://jsd.012700.xyz/gh/baihu433/image/image/1708004141985.jpg" alt="man 执行结果" /></p>
-<div class="note success flat"><p>退出请使用 <code>q</code>  点一下键盘的<code>q</code>键</p>
-</div>
-<ul>
-<li>OK 恭喜你，你已经学会了Linux入门的第一个命令 <code>man</code></li>
-</ul>
-<h1 id="快捷键"><a class="markdownIt-Anchor" href="#快捷键"></a> 快捷键</h1>
-<blockquote>
-<p>学会快捷键能起到事半功倍的效果</p>
-</blockquote>
-<ul>
-<li>Ctrl + C：结束（终止）当前命令
-<ul>
-<li>当同时按下键盘上的Ctrl和字母C的时候，意味着终止当前进程的运行。</li>
-<li>假如执行了一个错误命令，或者是执行某个命令后迟迟无法结束，这时就可以按下Ctrl+C组合键，就会立刻终止此命令。</li>
-</ul>
-</li>
-<li>Tab：实现命令的自动补全
-<ul>
-<li>当你输入命令、文件或目录的前几个字符时，它会自动帮你补全。</li>
-</ul>
-</li>
-<li>Ctrl + L：清屏
-<ul>
-<li>清理屏幕上的日志等信息。</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>分享</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux学习-入门篇 (一)</title>
-    <url>/posts/e4883857/</url>
-    <content><![CDATA[<blockquote>
-<p>在正式开始学习之前，我先唠唠嗑，因为有一个非常现实的问题——<code>学习是一件非常痛苦的事情</code>，如果说学习Linux系统真的很简单，那必定是骗子的谎言。在每天起床后的几分钟时间里，大脑都会陷入斗争状态：是该聊会儿天呢，还是要追个美剧呢，还是学习一下那该死的Linux系统呢？这个时候，请不要忘记自己的初心，未来的你一定会感谢现在努力的自己。</p>
-</blockquote>
-<hr />
-<h1 id="linux概述"><a class="markdownIt-Anchor" href="#linux概述"></a> Linux概述</h1>
-<blockquote>
-<p>Linux内核最初只是由芬兰人林纳斯·托瓦兹（Linus Torvalds）在赫尔辛基大学上学时出于个人爱好而编写的，当时还在读大学的Linus想要基于<code>Unix</code>的原则和设计来创建一个免费的开源系统，从而代替<code>MINIX</code>操作系统。<br></p>
-</blockquote>
-<ol>
-<li>Linux基于<code>GNU 通用公共许可证（GPL）</code>的开放源代码特性，迅速得到了GNU源代码开放计划和一大批程序员的支持，随后Linux正式进入如火如荼的发展阶段。</li>
-<li>Linux系统的吉祥物名为<code>Tux</code>，是一只呆萌的小企鹅。<img src="https://jsd.012700.xyz/gh/baihu433/image/image/1707831915290.jpg" alt="Linux图片及吉祥物" /></li>
-</ol>
-<h1 id="常见的linux系统版本"><a class="markdownIt-Anchor" href="#常见的linux系统版本"></a> 常见的Linux系统版本</h1>
-<blockquote>
-<p>在介绍常见的Linux系统版本之前，首先需要区分Linux系统内核与Linux发行套件系统的不同。</p>
-<ul>
-<li><code>Linux内核</code>是操作系统的核心，负责提供基本的操作系统功能。</li>
-<li><code>Linux发行套件系统</code>是在内核的基础上，添加了各种实用工具、应用程序和图形界面等组件，形成一个完整的操作系统。</li>
-</ul>
-</blockquote>
-<hr />
-<h2 id="span-stylefont-size07em全球的linux系统大约有近百款每个系统都有自己的特点与针对性我这里只列出四种常见的linux系统-span"><a class="markdownIt-Anchor" href="#span-stylefont-size07em全球的linux系统大约有近百款每个系统都有自己的特点与针对性我这里只列出四种常见的linux系统-span"></a> <span  style="font-size:0.7em;">全球的Linux系统大约有近百款，每个系统都有自己的特点与针对性，我这里只列出四种常见的Linux系统。</span></h2>
-<blockquote>
-<p>引用一下刘瑞老师的话: “我们并不是因为开源而喜欢Linux，而是因为Linux系统真的非常优秀，开源精神仅仅是锦上添花而已。”</p>
-</blockquote>
-<hr />
-<h2 id="1-centos"><a class="markdownIt-Anchor" href="#1-centos"></a> 1. CentOS</h2>
-<div align="center"><img alt="CentOS" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707833168116.png"></div>
-<ul>
-<li>CentOS是一款基于Red  Hat  Enterprise  Linux（RHEL）的开源操作系统，它具有稳定性高、兼容性强等特点，广泛应用于服务器领域。CentOS全称<code>Community Enterprise Operating System</code>，意为社区企业操作系统。</li>
-<li>在CentOS中，使用的包管理器是<code>yum</code>（Yellow dog Updater Modified）yum是一款强大的软件包管理器，它能够方便地安装、升级和删除软件包。</li>
-</ul>
-<h2 id="2-debian-linux"><a class="markdownIt-Anchor" href="#2-debian-linux"></a> 2. Debian Linux</h2>
-<div align="center"><img alt="Debian" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707833828652.jpg"></div>
-<ul>
-<li>Debian是一款著名的开源操作系统，它以稳定性、安全性和自由度著称。它由Debian   Foundation维护。</li>
-<li>在Debian中，使用的包管理器是<code>apt</code>（Advanced   Package   Tool）。apt是一款强大的包管理器，它继承了Debian的稳定性特点。</li>
-</ul>
-<h2 id="3-ubuntu-linux"><a class="markdownIt-Anchor" href="#3-ubuntu-linux"></a> 3. Ubuntu Linux</h2>
-<div align="center"><img alt="Ubuntu" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707833168115.png"></div>
-<ul>
-<li>Ubuntu是一款基于Debian的开源操作系统，由Canonical  Ltd.公司支持和发展。它以人性化、易用性和强大的社区支持而闻名。Ubuntu发行版定期发布新版本，并提供广泛的软件包和图形化界面，使得它深受广大用户喜爱。</li>
-<li>在Ubuntu Linux中使用的包管理器是<code>apt</code>（Advanced   Package   Tool），apt具有稳定性、可靠性和自动化等特点，可以满足用户在安装、升级和删除软件包方面的需求。</li>
-</ul>
-<h2 id="4-arch-linux"><a class="markdownIt-Anchor" href="#4-arch-linux"></a> 4. Arch Linux</h2>
-<div align="center"><img alt="Arch" src="https://jsd.012700.xyz/gh/baihu433/image/image/1707835060690.jpg"></div>
-<ul>
-<li>Arch  Linux是一款以简单、轻量级和定制性强著称的开源操作系统。它采用了滚动发布模式，意味着用户可以始终使用最新的软件包。Arch  Linux的设计理念强调简洁和自由度，允许用户根据需求自由定制系统。</li>
-<li>在Arch  Linux中，使用的包管理器是<code>pacman</code>，因它具有易于使用和灵活的特点，所以成为了Arch Linux 社区的标志之一。</li>
-</ul>
-<hr />
-<blockquote>
-<p>虽然有这么多Linux系统，但我要说的一点就是——没有最好的系统，只最适合需求的系统。</p>
-</blockquote>
-<hr />
-<blockquote>
-<p>总结：你阅读完本节之后你应该了解</p>
-<ol>
-<li>开源协议</li>
-<li>常见Linux系统的logo及其包管理器</li>
-</ol>
-</blockquote>
-<hr />
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>分享</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux学习-入门篇 (二)</title>
-    <url>/posts/95cbc5a8/</url>
-    <content><![CDATA[<h1 id="亲手部署linux"><a class="markdownIt-Anchor" href="#亲手部署linux"></a> 亲手部署Linux</h1>
-<blockquote>
-<p>这一节主要偏向于实战风，大家遇到问题可以在底下留言。</p>
-</blockquote>
-<div class="note success flat"><details>
-<summary>Android教程</summary>
-<a href="https://gitee.com/baihu433/Yunzai-Bot-Shell/blob/master/Markdown/Ubuntu.md"><p>教程链接</p></a>
-</details></div>
-<div class="note info flat"><details>
-<summary>Windows教程</summary>
-<a href="https://learn.microsoft.com/zh-cn/windows/wsl/install"><p>教程链接</p></a>
-</details></div>]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>分享</tag>
-        <tag>Linux</tag>
+        <tag>诗歌</tag>
+        <tag>收集</tag>
       </tags>
   </entry>
   <entry>
@@ -366,34 +89,27 @@ ps：之后会讲用户的知识
       </tags>
   </entry>
   <entry>
-    <title>安慰人，这句话够了</title>
-    <url>/posts/6303ae4e/</url>
-    <content><![CDATA[<h2 id="你已经做的很好了不用逼自己那么辛苦下次一定会更好"><a class="markdownIt-Anchor" href="#你已经做的很好了不用逼自己那么辛苦下次一定会更好"></a> 你已经做的很好了，不用逼自己那么辛苦，下次一定会更好。</h2>
-<h2 id="有压力是正常的说出来总会好一些不要把所有压力和不高兴都无声的消化了"><a class="markdownIt-Anchor" href="#有压力是正常的说出来总会好一些不要把所有压力和不高兴都无声的消化了"></a> 有压力是正常的，说出来总会好一些，不要把所有压力和不高兴都无声的消化了。</h2>
-<h2 id="相信你的能力这个难题你一定可以克服你那么聪明一定可以找到解决办法"><a class="markdownIt-Anchor" href="#相信你的能力这个难题你一定可以克服你那么聪明一定可以找到解决办法"></a> 相信你的能力，这个难题你一定可以克服，你那么聪明，一定可以找到解决办法。</h2>
-]]></content>
+    <title>Linux学习-入门篇 (二)</title>
+    <url>/posts/95cbc5a8/</url>
+    <content><![CDATA[<h1 id="亲手部署linux"><a class="markdownIt-Anchor" href="#亲手部署linux"></a> 亲手部署Linux</h1>
+<blockquote>
+<p>这一节主要偏向于实战风，大家遇到问题可以在底下留言。</p>
+</blockquote>
+<div class="note success flat"><details>
+<summary>Android教程</summary>
+<a href="https://gitee.com/baihu433/Yunzai-Bot-Shell/blob/master/Markdown/Ubuntu.md"><p>教程链接</p></a>
+</details></div>
+<div class="note info flat"><details>
+<summary>Windows教程</summary>
+<a href="https://learn.microsoft.com/zh-cn/windows/wsl/install"><p>教程链接</p></a>
+</details></div>]]></content>
       <categories>
-        <category>好句</category>
+        <category>技术</category>
       </categories>
       <tags>
-        <tag>收集</tag>
-        <tag>好句</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>诗歌收集 (一)</title>
-    <url>/posts/9e513303/</url>
-    <content><![CDATA[<center>我与春风皆过客，你携秋风揽星河。</center>
-<hr>
-<center>从此音尘各悄然，春山如黛草如烟。</center>
-<hr>
-<center>三里清风三里路，步步春风再无你。</center>]]></content>
-      <categories>
-        <category>诗歌</category>
-      </categories>
-      <tags>
-        <tag>诗歌</tag>
-        <tag>收集</tag>
+        <tag>技术</tag>
+        <tag>分享</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -426,24 +142,5 @@ ps：之后会讲用户的知识
         <tag>收集</tag>
         <tag>好句</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/posts/4a17b156/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2>
-<h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
 </search>
