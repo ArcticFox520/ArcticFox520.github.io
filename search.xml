@@ -25,22 +25,6 @@
       </tags>
   </entry>
   <entry>
-    <title>诗歌收集 (一)</title>
-    <url>/posts/9e513303/</url>
-    <content><![CDATA[<center>我与春风皆过客，你携秋风揽星河。</center>
-<hr>
-<center>从此音尘各悄然，春山如黛草如烟。</center>
-<hr>
-<center>三里清风三里路，步步春风再无你。</center>]]></content>
-      <categories>
-        <category>诗歌</category>
-      </categories>
-      <tags>
-        <tag>诗歌</tag>
-        <tag>收集</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/posts/4a17b156/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -106,6 +90,22 @@
 ]]></content>
       <categories>
         <category>好句</category>
+      </categories>
+      <tags>
+        <tag>诗歌</tag>
+        <tag>收集</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>诗歌收集 (一)</title>
+    <url>/posts/9e513303/</url>
+    <content><![CDATA[<center>我与春风皆过客，你携秋风揽星河。</center>
+<hr>
+<center>从此音尘各悄然，春山如黛草如烟。</center>
+<hr>
+<center>三里清风三里路，步步春风再无你。</center>]]></content>
+      <categories>
+        <category>诗歌</category>
       </categories>
       <tags>
         <tag>诗歌</tag>
