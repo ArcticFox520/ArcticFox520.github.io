@@ -1,8 +1,6 @@
 @font-face {
-  font-family: "iconfont"; /* Project id 4469693 */
-  src: url('iconfont.woff2?t=1710590715254') format('woff2'),
-       url('iconfont.woff?t=1710590715254') format('woff'),
-       url('iconfont.ttf?t=1710590715254') format('truetype');
+  font-family: "iconfont"; /* Project id 4469694 */
+  src: url('iconfont.svg?t=1710601018386#iconfont') format('svg');
 }
 
 .iconfont {
@@ -13,8 +11,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-qq:before {
-  content: "\e60e";
+.icon-QQ-circle-fill:before {
+  content: "\e887";
+}
+
+.icon-youxiang:before {
+  content: "\e649";
 }
 
 .icon-github:before {

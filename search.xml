@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Linux学习-入门篇 (二)</title>
+    <url>/posts/95cbc5a8/</url>
+    <content><![CDATA[<h1 id="亲手部署linux"><a class="markdownIt-Anchor" href="#亲手部署linux"></a> 亲手部署Linux</h1>
+<blockquote>
+<p>这一节主要偏向于实战风，大家遇到问题可以在底下留言。</p>
+</blockquote>
+<div class="note success flat"><details>
+<summary>Android教程</summary>
+<a href="https://gitee.com/baihu433/Yunzai-Bot-Shell/blob/master/Markdown/Ubuntu.md"><p>教程链接</p></a>
+</details></div>
+<div class="note info flat"><details>
+<summary>Windows教程</summary>
+<a href="https://learn.microsoft.com/zh-cn/windows/wsl/install"><p>教程链接</p></a>
+</details></div>]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>分享</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/posts/4a17b156/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2>
+<h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>Linux学习-入门篇 (三)</title>
     <url>/posts/eb38e583/</url>
     <content><![CDATA[<h1 id="认识命令行"><a class="markdownIt-Anchor" href="#认识命令行"></a> 认识命令行</h1>
@@ -157,6 +200,22 @@ ps：之后会讲用户的知识
       </tags>
   </entry>
   <entry>
+    <title>诗歌收集 (一)</title>
+    <url>/posts/9e513303/</url>
+    <content><![CDATA[<center>我与春风皆过客，你携秋风揽星河。</center>
+<hr>
+<center>从此音尘各悄然，春山如黛草如烟。</center>
+<hr>
+<center>三里清风三里路，步步春风再无你。</center>]]></content>
+      <categories>
+        <category>诗歌</category>
+      </categories>
+      <tags>
+        <tag>收集</tag>
+        <tag>诗歌</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>诗歌收集 (二)</title>
     <url>/posts/3160a861/</url>
     <content><![CDATA[<ul>
@@ -207,65 +266,6 @@ ps：之后会讲用户的知识
       <tags>
         <tag>收集</tag>
         <tag>诗歌</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/posts/4a17b156/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2>
-<h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>诗歌收集 (一)</title>
-    <url>/posts/9e513303/</url>
-    <content><![CDATA[<center>我与春风皆过客，你携秋风揽星河。</center>
-<hr>
-<center>从此音尘各悄然，春山如黛草如烟。</center>
-<hr>
-<center>三里清风三里路，步步春风再无你。</center>]]></content>
-      <categories>
-        <category>诗歌</category>
-      </categories>
-      <tags>
-        <tag>收集</tag>
-        <tag>诗歌</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux学习-入门篇 (二)</title>
-    <url>/posts/95cbc5a8/</url>
-    <content><![CDATA[<h1 id="亲手部署linux"><a class="markdownIt-Anchor" href="#亲手部署linux"></a> 亲手部署Linux</h1>
-<blockquote>
-<p>这一节主要偏向于实战风，大家遇到问题可以在底下留言。</p>
-</blockquote>
-<div class="note success flat"><details>
-<summary>Android教程</summary>
-<a href="https://gitee.com/baihu433/Yunzai-Bot-Shell/blob/master/Markdown/Ubuntu.md"><p>教程链接</p></a>
-</details></div>
-<div class="note info flat"><details>
-<summary>Windows教程</summary>
-<a href="https://learn.microsoft.com/zh-cn/windows/wsl/install"><p>教程链接</p></a>
-</details></div>]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>分享</tag>
-        <tag>Linux</tag>
       </tags>
   </entry>
 </search>
