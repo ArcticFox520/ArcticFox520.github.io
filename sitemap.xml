@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://arcticfox.top/CSS/iconfont.json</loc>
+    
+    <lastmod>2024-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://arcticfox.top/CSS/demo_index.html</loc>
+    
+    <lastmod>2024-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://arcticfox.top/posts/eb38e583/</loc>
     
     <lastmod>2024-03-16</lastmod>
@@ -131,7 +149,7 @@
   </url>
   
   <url>
-    <loc>https://arcticfox.top/tags/%E8%AF%97%E6%AD%8C/</loc>
+    <loc>https://arcticfox.top/tags/%E5%A5%BD%E5%8F%A5/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -145,7 +163,7 @@
   </url>
   
   <url>
-    <loc>https://arcticfox.top/tags/%E5%A5%BD%E5%8F%A5/</loc>
+    <loc>https://arcticfox.top/tags/%E8%AF%97%E6%AD%8C/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -161,14 +179,14 @@
   </url>
   
   <url>
-    <loc>https://arcticfox.top/categories/%E8%AF%97%E6%AD%8C/</loc>
+    <loc>https://arcticfox.top/categories/%E5%A5%BD%E5%8F%A5/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://arcticfox.top/categories/%E5%A5%BD%E5%8F%A5/</loc>
+    <loc>https://arcticfox.top/categories/%E8%AF%97%E6%AD%8C/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
