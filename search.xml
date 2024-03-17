@@ -1,6 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Linux学习-入门篇 (二)</title>
+    <url>/posts/95cbc5a8/</url>
+    <content><![CDATA[<h1 id="亲手部署linux"><a class="markdownIt-Anchor" href="#亲手部署linux"></a> 亲手部署Linux</h1>
+<blockquote>
+<p>这一节主要偏向于实战风，大家遇到问题可以在底下留言。</p>
+</blockquote>
+<div class="note success flat"><details>
+<summary>Android教程</summary>
+<a href="https://gitee.com/baihu433/Yunzai-Bot-Shell/blob/master/Markdown/Ubuntu.md"><p>教程链接</p></a>
+</details></div>
+<div class="note info flat"><details>
+<summary>Windows教程</summary>
+<a href="https://learn.microsoft.com/zh-cn/windows/wsl/install"><p>教程链接</p></a>
+</details></div>]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>分享</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/posts/4a17b156/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2>
+<h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>好句收集 (一)</title>
+    <url>/posts/b5c675f1/</url>
+    <content><![CDATA[<p>极光不会因为你的不完美而缺陷，因为，爱就是心中不朽的极光！</p>
+<hr>
+前进会带来失去，但也会带来相遇。
+<hr>
+别担心，窗外不会一直下雨，人生也不会一直乌云密布。
+<hr>
+你所浪费的今天，是昨日死去之人苦苦奢望的明天，你所厌恶的现在，是未来的你再也回不去的曾经。
+<hr>
+正真的离别，没有长亭古道，也没有劝君更敬一杯酒，只有在一个和以往一样的清晨，有的人留在了昨天。
+<hr>
+只有彻底失去某个人，才能真正明白，那个人在自己心中的重量。
+慎终如始、坚守初心才是正道，万万不可因为走得太远，而忘记了为什么出发。
+<hr>
+我像一个拾荒者，一片一片的拾起我们的曾经 然后在某一个夏日的午后，拼凑起来晒出自己美好的回忆。
+<hr>
+听故事的人终会成为讲故事的人，讲故事的人也难免变成故事里的人。
+<hr>
+总会有一个温柔的人，给你来带温柔的月亮。
+<hr>
+困住我的从来都不是世间万物 而是我那颗躁动不安的心]]></content>
+      <categories>
+        <category>好句</category>
+      </categories>
+      <tags>
+        <tag>好句</tag>
+        <tag>收集</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>诗歌收集 (一)</title>
+    <url>/posts/9e513303/</url>
+    <content><![CDATA[<center>我与春风皆过客，你携秋风揽星河。</center>
+<hr>
+<center>从此音尘各悄然，春山如黛草如烟。</center>
+<hr>
+<center>三里清风三里路，步步春风再无你。</center>]]></content>
+      <categories>
+        <category>诗歌</category>
+      </categories>
+      <tags>
+        <tag>收集</tag>
+        <tag>诗歌</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>诗歌收集 (二)</title>
+    <url>/posts/3160a861/</url>
+    <content><![CDATA[<ul>
+<li>原文
+<ul>
+<li>爱的人就在眼前</li>
+</ul>
+</li>
+<li>古文
+<ul>
+<li>海底月是天上月</li>
+<li>眼前人是心上人</li>
+</ul>
+</li>
+</ul>
+<hr />
+<ul>
+<li>原文
+<ul>
+<li>在我眼中你是最美的</li>
+</ul>
+</li>
+<li>古文
+<ul>
+<li>日落西山非我意</li>
+<li>晚霞再好不及你</li>
+</ul>
+</li>
+</ul>
+<hr />
+<ul>
+<li>原文
+<ul>
+<li>真的很难过</li>
+</ul>
+</li>
+<li>古文
+<ul>
+<li>半身风雨半别凉</li>
+<li>半句别恨半句凉</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>好句</category>
+      </categories>
+      <tags>
+        <tag>收集</tag>
+        <tag>诗歌</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux学习-入门篇 (三)</title>
     <url>/posts/eb38e583/</url>
     <content><![CDATA[<h1 id="认识命令行"><a class="markdownIt-Anchor" href="#认识命令行"></a> 认识命令行</h1>
@@ -124,148 +267,5 @@ ps：之后会讲用户的知识
         <tag>分享</tag>
         <tag>Linux</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>诗歌收集 (一)</title>
-    <url>/posts/9e513303/</url>
-    <content><![CDATA[<center>我与春风皆过客，你携秋风揽星河。</center>
-<hr>
-<center>从此音尘各悄然，春山如黛草如烟。</center>
-<hr>
-<center>三里清风三里路，步步春风再无你。</center>]]></content>
-      <categories>
-        <category>诗歌</category>
-      </categories>
-      <tags>
-        <tag>诗歌</tag>
-        <tag>收集</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux学习-入门篇 (二)</title>
-    <url>/posts/95cbc5a8/</url>
-    <content><![CDATA[<h1 id="亲手部署linux"><a class="markdownIt-Anchor" href="#亲手部署linux"></a> 亲手部署Linux</h1>
-<blockquote>
-<p>这一节主要偏向于实战风，大家遇到问题可以在底下留言。</p>
-</blockquote>
-<div class="note success flat"><details>
-<summary>Android教程</summary>
-<a href="https://gitee.com/baihu433/Yunzai-Bot-Shell/blob/master/Markdown/Ubuntu.md"><p>教程链接</p></a>
-</details></div>
-<div class="note info flat"><details>
-<summary>Windows教程</summary>
-<a href="https://learn.microsoft.com/zh-cn/windows/wsl/install"><p>教程链接</p></a>
-</details></div>]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>分享</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>好句收集 (一)</title>
-    <url>/posts/b5c675f1/</url>
-    <content><![CDATA[<p>极光不会因为你的不完美而缺陷，因为，爱就是心中不朽的极光！</p>
-<hr>
-前进会带来失去，但也会带来相遇。
-<hr>
-别担心，窗外不会一直下雨，人生也不会一直乌云密布。
-<hr>
-你所浪费的今天，是昨日死去之人苦苦奢望的明天，你所厌恶的现在，是未来的你再也回不去的曾经。
-<hr>
-正真的离别，没有长亭古道，也没有劝君更敬一杯酒，只有在一个和以往一样的清晨，有的人留在了昨天。
-<hr>
-只有彻底失去某个人，才能真正明白，那个人在自己心中的重量。
-慎终如始、坚守初心才是正道，万万不可因为走得太远，而忘记了为什么出发。
-<hr>
-我像一个拾荒者，一片一片的拾起我们的曾经 然后在某一个夏日的午后，拼凑起来晒出自己美好的回忆。
-<hr>
-听故事的人终会成为讲故事的人，讲故事的人也难免变成故事里的人。
-<hr>
-总会有一个温柔的人，给你来带温柔的月亮。
-<hr>
-困住我的从来都不是世间万物 而是我那颗躁动不安的心]]></content>
-      <categories>
-        <category>好句</category>
-      </categories>
-      <tags>
-        <tag>收集</tag>
-        <tag>好句</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>诗歌收集 (二)</title>
-    <url>/posts/3160a861/</url>
-    <content><![CDATA[<ul>
-<li>原文
-<ul>
-<li>爱的人就在眼前</li>
-</ul>
-</li>
-<li>古文
-<ul>
-<li>海底月是天上月</li>
-<li>眼前人是心上人</li>
-</ul>
-</li>
-</ul>
-<hr />
-<ul>
-<li>原文
-<ul>
-<li>在我眼中你是最美的</li>
-</ul>
-</li>
-<li>古文
-<ul>
-<li>日落西山非我意</li>
-<li>晚霞再好不及你</li>
-</ul>
-</li>
-</ul>
-<hr />
-<ul>
-<li>原文
-<ul>
-<li>真的很难过</li>
-</ul>
-</li>
-<li>古文
-<ul>
-<li>半身风雨半别凉</li>
-<li>半句别恨半句凉</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>好句</category>
-      </categories>
-      <tags>
-        <tag>诗歌</tag>
-        <tag>收集</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/posts/4a17b156/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2>
-<h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
 </search>
