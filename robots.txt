@@ -6,5 +6,5 @@ Allow: /tags/
 Allow: /about/
 Allow: /posts/
 
-Sitemap: https://arcticfox.top/sitemap.xml
-Sitemap: https://arcticfox.top/baidu_sitemap.xml
+Sitemap: https://www.arcticfox.top/sitemap.xml
+Sitemap: https://www.arcticfox.top/baidusitemap.xml
