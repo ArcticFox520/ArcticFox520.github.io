@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Termux部署Minecraft-BDS服务器</title>
-    <url>/posts/mcbds/</url>
+    <url>/posts/ebf41e30/</url>
     <content><![CDATA[<h1 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h1>
 <blockquote>
 <p>本文主要<code>记录</code>在<code>Termux</code>上使用<code>box64</code>部署<code>Minecraft-BDS</code>服务器的事情</p>
@@ -90,7 +90,7 @@
 <div class="note info flat"><details>
 <summary> <b>fatal: unable to access 'xxx'</b></summary>
 <b>这个问题是由于国内网络<code>无法</code>直接访问到<code>Github</code>所导致的<br>
-因此要将Github换成国内镜像站重新拉取
+因此要将Github换成国内镜像站重新拉取</b>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> --depth=1 https://github.arcticfox.top/ptitSeb/box64</span><br></pre></td></tr></table></figure>
 </details></div>
 <p>拉取完成后，进入box64的文件夹</p>
