@@ -83,13 +83,6 @@
 
   
   <url>
-    <loc>https://www.arcticfox.top/tags/Shell-Linux/</loc>
-    <lastmod>2024-05-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.arcticfox.top/tags/Termux/</loc>
     <lastmod>2024-05-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -103,17 +96,24 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://www.arcticfox.top/tags/Shell-Linux/</loc>
+    <lastmod>2024-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
-    <loc>https://www.arcticfox.top/categories/Shell/</loc>
+    <loc>https://www.arcticfox.top/categories/Termux/</loc>
     <lastmod>2024-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.arcticfox.top/categories/Termux/</loc>
+    <loc>https://www.arcticfox.top/categories/Shell/</loc>
     <lastmod>2024-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
