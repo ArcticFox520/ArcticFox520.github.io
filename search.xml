@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Shell脚本实现计时器</title>
+    <url>/posts/e2054a84/</url>
+    <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
+<blockquote>
+<p>本篇文章主要记录使用Shell脚本实现一个命令执行计时器的函数。</p>
+</blockquote>
+<h3 id="准备"><a class="markdownIt-Anchor" href="#准备"></a> 准备</h3>
+<table>
+<thead>
+<tr>
+<th>使用命令</th>
+<th>学习链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>echo</td>
+<td><a href="https://www.runoob.com/linux/linux-shell-echo.html">学习链接</a></td>
+</tr>
+<tr>
+<td>date</td>
+<td><a href="https://www.runoob.com/linux/linux-comm-date.html">学习链接</a></td>
+</tr>
+<tr>
+<td>expr</td>
+<td><a href="https://www.runoob.com/linux/linux-comm-expr.html">学习链接</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="开始"><a class="markdownIt-Anchor" href="#开始"></a> 开始</h3>
+<h4 id="具体代码"><a class="markdownIt-Anchor" href="#具体代码"></a> 具体代码</h4>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">function Timer()&#123;</span><br><span class="line">  # 使用 local 定义变量 防止污染脚本变量</span><br><span class="line">  local StartTime=$(date +%s%N)</span><br><span class="line">  local EndTime</span><br><span class="line">  local DiffSeconds</span><br><span class="line">  local DiffMS</span><br><span class="line">  </span><br><span class="line">  # 执行传入命令 并输出结果</span><br><span class="line">  command=$@</span><br><span class="line">  $&#123;command&#125;</span><br><span class="line">  </span><br><span class="line">  # 计算时间</span><br><span class="line">  EndTime=$(date +%s%N)</span><br><span class="line">  DiffSeconds=$(( (EndTime / 1000000000) - (StartTime / 1000000000) ))</span><br><span class="line">  if (( $(( (EndTime % 1000000000) - (StartTime % 1000000000) )) &lt; 0 ))</span><br><span class="line">  then</span><br><span class="line">    DiffMS=$(( (StartTime % 1000000000) - (EndTime % 1000000000) ))</span><br><span class="line">  else</span><br><span class="line">    DiffMS=$(( (EndTime % 1000000000) - (StartTime % 1000000000) ))</span><br><span class="line">  fi</span><br><span class="line">  DiffMS=$(( DiffMS / 1000000 ))</span><br><span class="line">  TotalSeconds=$(( DiffSeconds + (DiffMS / 1000) ))</span><br><span class="line">  TotalMS=$(( DiffMS % 1000 ))</span><br><span class="line">  </span><br><span class="line">  # 防止时间为负数</span><br><span class="line">  if (( $&#123;TotalMS&#125; &lt; 0))</span><br><span class="line">  then</span><br><span class="line">    TotalSeconds=$(expr $&#123;TotalSeconds&#125; - 1)</span><br><span class="line">    DiffMS=$(expr DiffMS + 1000)</span><br><span class="line">    TotalMS=$(( DiffMS % 1000 ))</span><br><span class="line">  fi</span><br><span class="line">  </span><br><span class="line">  # 输出时间</span><br><span class="line">  echo &quot;$&#123;TotalSeconds&#125;.$&#123;TotalMS&#125;s&quot; | sed &#x27;s/-//g&#x27;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="使用范例"><a class="markdownIt-Anchor" href="#使用范例"></a> 使用范例</h4>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">root@localhost:~# Timer pnpm list -g</span><br><span class="line">Legend: production dependency, optional only, dev only</span><br><span class="line"></span><br><span class="line">/root/.local/share/pnpm/global/5</span><br><span class="line"></span><br><span class="line">dependencies:</span><br><span class="line">ArcticFox 5.20</span><br><span class="line">1.93s</span><br><span class="line">root@localhost:~#</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Shell</category>
+      </categories>
+      <tags>
+        <tag>Shell - Linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Termux部署Minecraft-BDS服务器</title>
     <url>/posts/ebf41e30/</url>
     <content><![CDATA[<h1 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h1>
@@ -196,9 +238,10 @@
 <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=AaQ-p2UPMthaapuWX-VVGm29Cfwj5sPh&amp;authKey=QK0UhNL%2Bc8nmo77ZsxY3msbKUMA6rEcQ52tT%2FT7PzHBvFrZEzd0M44Er4VEGwPP8&amp;noverify=0&amp;group_code=705226976">狐狸窝①群</a><br />
 <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=stUQ5EujBVy7dfubjcAC2APFkuiwmMij&amp;authKey=D9ckeLNZjlcPTV8zWMnpMbt8YIN24ryzq5AgJVpmm65UMxnaT%2FBgbMaHVxhe98nt&amp;noverify=0&amp;group_code=879718035">狐狸窝③群</a></p>
 </blockquote>
+<hr>
 <hr>]]></content>
       <categories>
-        <category>Termux折腾</category>
+        <category>Termux</category>
       </categories>
       <tags>
         <tag>Termux</tag>
